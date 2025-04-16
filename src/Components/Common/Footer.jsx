@@ -46,7 +46,7 @@ const Footer = () => {
       title: 'Additionals',
       links: [
         // { name: 'Search', path: '/Search' },
-        { name: 'About Us', path: '/about-us' },
+        { name: 'About Us', path: '/aboutus' },
         { name: 'Contact Us', path: '/contact' },
         { name: 'FAQ', path: '/faq' },
       ]

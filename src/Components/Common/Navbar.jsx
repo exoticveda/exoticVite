@@ -46,7 +46,7 @@ const Navbar = () => {
                 {/* <li className="py-2 md:py-0"><a href="/" className="hover:text-teal-600">Home</a></li> */}
                 <li className="py-2 md:py-0"><a href="/products" className="hover:text-teal-600">Products</a></li>
                 {/* <li className="py-2 md:py-0"><a href="/search" className="hover:text-teal-600">Search</a></li> */}
-                <li className="py-2 md:py-0"><a href="aboutus" className="hover:text-teal-600">About Us</a></li>
+                <li className="py-2 md:py-0"><a href="/aboutus" className="hover:text-teal-600">About Us</a></li>
                 <li className="py-2 md:py-0"><a href="/Contact" className="hover:text-teal-600">Contact Us</a></li>
 
                 {/* Dropdown */}
