@@ -18,6 +18,7 @@ import FAQ from "../Components/Common/FAQ";
 import ScrollToTop from "./ScrollToTop";
 import BeetrootPowder from "../Pages/ProductPages/BeetrootPowder";
 import HennaPowder from "../Pages/ProductPages/HennaPowder";
+import SearchBar from "../Components/Common/Search";
 const NotFound =({ darkMode }) => {
     return (
       <motion.div
@@ -47,6 +48,7 @@ const NotFound =({ darkMode }) => {
        <Routes>
 
 <Route path="*" element={<NotFound />} />
+{/* <Route path="/search" element={<SearchBar />} /> */}
 <Route path="/Contact" element={<Contact/>} />
 <Route path="/" element={<Home/>} />
 <Route path="/products" element={<ProductGrid/>} />
