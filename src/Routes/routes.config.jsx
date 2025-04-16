@@ -26,10 +26,7 @@ const NotFound =({ darkMode }) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        {/* Warning Icon with Animation */}
-        <AlertTriangle className="text-red-500 w-20 h-20 animate-bounce" />
-
-        {/* Main 404 Message */}
+      <AlertTriangle className="text-red-500 w-20 h-20 animate-bounce" />
         <h1 className="text-6xl font-extrabold text-gray-800 mt-6">404</h1>
         <p className="text-2xl text-gray-600 mt-2">Oops! Page Not Found</p>
         <p className="text-md text-gray-500 mt-2">
@@ -63,8 +60,6 @@ const NotFound =({ darkMode }) => {
 <Route path="/faq" element={<FAQ/>} />
 <Route path="/terms" element={<TermsAndConditions/>} />
 <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
-
-{/* ////Product Page   */}
 <Route path='/products/beetroot-powder'element={<BeetrootPowder/>}/>
 <Route path='/products/henna-powder'element={<HennaPowder/>}/>
 
