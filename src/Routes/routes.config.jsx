@@ -16,6 +16,8 @@ import TermsAndConditions from "../Pages/Policies/TermsAndConditions";
 import PrivacyPolicy from "../Pages/Policies/PrivacyPolicy";
 import FAQ from "../Components/Common/FAQ";
 import ScrollToTop from "./ScrollToTop";
+import BeetrootPowder from "../Pages/ProductPages/BeetrootPowder";
+import HennaPowder from "../Pages/ProductPages/HennaPowder";
 const NotFound =({ darkMode }) => {
     return (
       <motion.div
@@ -55,12 +57,17 @@ const NotFound =({ darkMode }) => {
 <Route path="/category/haircare" element={<Haircare/>} />
 <Route path="/Skincaree-category" element={<Skincare/>} />
 <Route path="/Diya-Batti" element={<PoojaItmes/>} />
-<Route path="/about-us" element={<Aboutus/>} />
+<Route path="/aboutus" element={<Aboutus/>} />
 <Route path="/wellness" element={<Wellness/>} />
 <Route path="/return-policy" element={<ReturnPolicy/>} />
 <Route path="/faq" element={<FAQ/>} />
 <Route path="/terms" element={<TermsAndConditions/>} />
 <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
+
+{/* ////Product Page   */}
+<Route path='/products/beetroot-powder'element={<BeetrootPowder/>}/>
+<Route path='/products/henna-powder'element={<HennaPowder/>}/>
+
 </Routes>
       </>
 
