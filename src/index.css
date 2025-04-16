@@ -1,0 +1,11 @@
+@import "tailwindcss";
+/* index.css or App.css */
+::selection {
+    background-color: #000; /* black background */
+    color: #fff;            /* white text */
+  }
+
+  ::-moz-selection {
+    background-color: #000;
+    color: #fff;
+  }
