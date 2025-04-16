@@ -16,7 +16,7 @@ const Navbar = () => {
             {/* Logo */}
             <div className="flex-shrink-0">
               <a href="/">
-                <img src="/assets/logo.png" alt="Logo" className="w-20 h-20 rounded-full object-cover" loading="lazy" />
+                <img src="/assets/logo.png" alt="Logo" className="w-20 h-20 rounded-full object-cover mt-3" loading="lazy" />
               </a>
             </div>
 

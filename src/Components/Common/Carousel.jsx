@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 
 const Carousel = () => {
   const desktopImages = [
-    '/assets/carouse/product discount.png',
-    '/assets/carouse/Skincare Beauty Product Features Banner Facebook Cover (2).png',
-    '/assets/carouse/Skincare Beauty Product Features Banner Facebook Cover (4).png',
-    '/assets/carouse/Skincare Beauty Product Features Banner Facebook Cover (6).webp',
+    '/assets/Carouse/product discount.png',
+    '/assets/Carouse/Skincare Beauty Product Features Banner Facebook Cover (2).png',
+    '/assets/Carouse/Skincare Beauty Product Features Banner Facebook Cover (4).png',
+    '/assets/Carouse/Skincare Beauty Product Features Banner Facebook Cover (6).webp',
       ];
 
   const mobileImages = [
