@@ -7,7 +7,7 @@ const PoojaItmes = () => {
     {
       id: 14,
       link: '/products/cow-ghee-diya',
-      img: "https://www.exoticveda.com/static/media/Cow%20ghee%20diya.af78e463c8729f7758ea.jpg",
+      img: '/assets/Assets/cow/cow gheediya 2.jpg',
       title: 'Handmade Cow Ghee Diya for Sacred Pooja and Ceremonies',
       description: 'Our cow ghee diya brings sacred light to your space, perfect for puja, festivals, and creating an uplifting atmosphere.',
       updateInfo: 'Click here to Learn Our Tips',
@@ -16,7 +16,7 @@ const PoojaItmes = () => {
     {
       id: 15,
       link: '/products/round-cotton-wick',
-      img: "https://www.exoticveda.com/static/media/Roundwick1.450f587bcc0b7f580053.jpg",
+ img:'/assets/Assets/Round/Roundwick2.jpg',
       title: 'Round Cotton Wick with Brass Holder',
       description: 'Traditional brass diya wick holder with cotton wicks – ideal for steady and clean-burning oil lamps.',
       updateInfo: 'Click here to Learn Our Tips',
@@ -25,8 +25,8 @@ const PoojaItmes = () => {
     {
       id: 16,
       link: '/products/long-cotton-wick',
-      img: "https://www.exoticveda.com/static/media/long.ce51b5d4406464662183.png",
-      title: 'Premium Long Cotton Wick with Brass Holder',
+      img:  '/assets/Assets/long/long-cotton-wick2.jpg',
+            title: 'Premium Long Cotton Wick with Brass Holder',
       description: 'Luxury organic cotton wicks for pooja thali – decorative, long-lasting, and eco-conscious.',
       updateInfo: 'Click here to Learn Our Tips',
       buyLink: 'https://revaais.com/products/premium-long-cotton-wick-with-two-brass-wick-holder-for-pooja-items-luxury-organic-cotton-wicks-for-puja-thali-pooja-wick-set-200-pieces-decorative-and-clean-burning?_pos=14&_sid=5edfdd030&_ss=r',
@@ -34,7 +34,7 @@ const PoojaItmes = () => {
     {
       id: 17,
       link: '/products/pujan-clay-ghee-diya',
-      img: "https://www.exoticveda.com/static/media/product%20shoot%20images%20(6)%20(1).780523f9af0a3ece3c51.png",
+ img:'/assets/Assets/poojan clay/pujan-clay3.jpg',
       title: 'Handcrafted Pujan Clay Diya (Set of 15)',
       description: 'Eco-friendly homemade diya with premium cow ghee wick for spiritual rituals and religious ceremonies.',
       updateInfo: 'Click here to Learn Our Tips',
@@ -62,12 +62,12 @@ const PoojaItmes = () => {
             <div className="p-5">
               <h2 className="text-lg font-bold mb-2 text-gray-900">{product.title}</h2>
               <p className="text-sm text-gray-600 mb-4">{product.description}</p>
-              <p className="text-sm text-blue-600 flex items-center mb-4">
+              {/* <p className="text-sm text-blue-600 flex items-center mb-4">
                 <Link to={product.link} className="hover:underline">
                   {product.updateInfo}
                 </Link>
                 <FaArrowRight className="ml-2 text-blue-500" size={12} />
-              </p>
+              </p> */}
               <Link to={product.buyLink}>
                 <button className="mt-3 inline-flex items-center gap-2 justify-center  bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-md w-full">
                   <FaCartPlus /> Buy Now</button>
