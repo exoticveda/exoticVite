@@ -14,7 +14,7 @@ const FeaturedCollection = () => {
   return (
     <section className="  mx-auto px-6 sm:px-6  py-10">
       <div className="flex flex-col sm:flex-row justify-between items-center mb-6 gap-4">
-        <h2 className="text-3xl font-bold text-center sm:text-left">Featured Collection</h2>
+        <h2 className="text-3xl font-bold text-center sm:text-left">Our Collection</h2>
         <a href="/products" className="text-yellow-600 font-medium hover:underline">See All Products</a>
       </div>
 
