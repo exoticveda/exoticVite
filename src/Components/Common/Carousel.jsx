@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react';
 
 const Carousel = () => {
   const desktopImages = [
-    'https://www.exoticveda.com/static/media/Skincare%20Beauty%20Product%20Features%20Banner%20Facebook%20Cover%20(6).05fe0346fe94e095617c.webp',
-    'https://www.exoticveda.com/static/media/Skincare%20Beauty%20Product%20Features%20Banner%20Facebook%20Cover%20(4).cd8fedb62b8fd38ecc54.png',
-    'https://www.exoticveda.com/static/media/Happy%20new%20year%20.81e98ccea4f761fa5b1a.png',
-  ];
+    '/assets/carouse/product discount.png',
+    '/assets/carouse/Skincare Beauty Product Features Banner Facebook Cover (2).png',
+    '/assets/carouse/Skincare Beauty Product Features Banner Facebook Cover (4).png',
+    '/assets/carouse/Skincare Beauty Product Features Banner Facebook Cover (6).webp',
+      ];
 
   const mobileImages = [
     'https://beyours-theme-beauty.myshopify.com/cdn/shop/files/mobile-slide-1.jpg?v=1667186867&width=2000',
