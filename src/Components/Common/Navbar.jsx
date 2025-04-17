@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,9 +15,9 @@ const Navbar = () => {
 
             {/* Logo */}
             <div className="flex-shrink-0">
-              <a href="/">
+              <Link to="/">
                 <img src="/assets/logo.png" alt="Logo" className="w-20 h-20 rounded-full object-cover mt-3" loading="lazy" />
-              </a>
+              </Link>
             </div>
 
             {/* Hamburger Icon */}
@@ -44,10 +44,10 @@ const Navbar = () => {
             >
               <ul className="flex flex-col md:flex-row md:space-x-6 items-start md:items-center text-gray-700 font-medium px-4 md:px-0">
                 {/* <li className="py-2 md:py-0"><a href="/" className="hover:text-teal-600">Home</a></li> */}
-                <li className="py-2 md:py-0"><a href="/products" className="hover:text-teal-600">Products</a></li>
+                <li className="py-2 md:py-0"><Link to="/products" className="hover:text-teal-600">Products</Link></li>
                 {/* <li className="py-2 md:py-0"><a href="/search" className="hover:text-teal-600">Search</a></li> */}
-                <li className="py-2 md:py-0"><a href="/aboutus" className="hover:text-teal-600">About Us</a></li>
-                <li className="py-2 md:py-0"><a href="/Contact" className="hover:text-teal-600">Contact Us</a></li>
+                <li className="py-2 md:py-0"><Link to="/aboutus" className="hover:text-teal-600">About Us</Link></li>
+                <li className="py-2 md:py-0"><Link to="/Contact" className="hover:text-teal-600">Contact Us</Link></li>
 
                 {/* Dropdown */}
                 <li
@@ -58,11 +58,11 @@ const Navbar = () => {
                   <span className="hover:text-teal-600 cursor-pointer">Shop by Categories</span>
                   {dropdownOpen && (
                     <ul className="absolute left-0 mt-2 w-44 bg-white shadow-md rounded-md z-50">
-                      <li><a href="/category/haircare" className="block px-4 py-2 hover:bg-gray-100">Hair Care</a></li>
-                      <li><a href="/Skincaree-category" className="block px-4 py-2 hover:bg-gray-100">Skin Care</a></li>
-                      <li><a href="/Dietry-Use-Category" className="block px-4 py-2 hover:bg-gray-100">Dietary</a></li>
-                      <li><a href="/wellness" className="block px-4 py-2 hover:bg-gray-100">Wellness</a></li>
-                      <li><a href="/Diya-Batti" className="block px-4 py-2 hover:bg-gray-100">Puja Essentials</a></li>
+                      <li><Link to="/category/haircare" className="block px-4 py-2 hover:bg-gray-100">Hair Care</Link></li>
+                      <li><Link to="/Skincaree-category" className="block px-4 py-2 hover:bg-gray-100">Skin Care</Link></li>
+                      <li><Link to="/Dietry-Use-Category" className="block px-4 py-2 hover:bg-gray-100">Dietary</Link></li>
+                      <li><Link to="/wellness" className="block px-4 py-2 hover:bg-gray-100">Wellness</Link></li>
+                      <li><Link to="/Diya-Batti" className="block px-4 py-2 hover:bg-gray-100">Puja Essentials</Link></li>
                     </ul>
                   )}
                 </li>
