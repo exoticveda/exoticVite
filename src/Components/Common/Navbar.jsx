@@ -67,7 +67,6 @@ const Navbar = () => {
                   )}
                 </li>
 
-                {/* External Shop Link */}
                 <li className="py-2 md:py-0">
                   <a
                     href="https://www.revaais.shop"
@@ -83,8 +82,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-
-      {/* Add height spacer under fixed nav */}
       <div className="h-16"></div>
     </>
   );

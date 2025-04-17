@@ -1,39 +1,7 @@
 import React, { useState } from 'react';
 import Product from './Product';
 import { beetrootSkinCareRecipes, beetrootDietaryRecipes } from '../../Components/Data';
-
-const RecipeCard = ({ recipe }) => (
-    <div className="bg-white rounded-xl shadow p-4 w-full h-full">
-      <img
-        src={recipe.image}
-        alt={recipe.title}
-        className="rounded-md w-full h-48 object-cover"
-      />
-      <h2 className="text-xl font-semibold mt-2">{recipe.title}</h2>
-
-      <div className="mt-2">
-        <h5 className="font-medium">Ingredients:</h5>
-        <ul className="list-disc list-inside">
-          {recipe.ingredients.map((item, idx) => (
-            <li key={idx}>{item}</li>
-          ))}
-        </ul>
-      </div>
-
-      <div className="mt-2">
-        <h5 className="font-medium">Instructions:</h5>
-        <ul className="list-decimal list-inside">
-          {recipe.instructions.map((step, idx) => (
-            <li key={idx}>{step}</li>
-          ))}
-        </ul>
-      </div>
-
-      <p className="mt-2 text-sm">
-        <strong>Benefits:</strong> {recipe.benefits}
-      </p>
-    </div>
-  );
+import { RecipeCard } from './RecipeCard';
 
 
 const BeetrootPowder = () => {
@@ -74,13 +42,6 @@ const BeetrootPowder = () => {
     <Product productId="Beetrootpowder" />
   </div>
 </div>
-
-
-      <div className="mt-6 text-center">
-        <a href='https://revaais.com/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g'>
-          <button className="bg-pink-600 text-white px-6 py-2 rounded-md hover:bg-pink-700 transition">Buy Now</button>
-        </a>
-      </div>
 
       <div className="mt-8">
         <img src="/assets/Assets/beetroot/beetrootPowder.png" alt='Beetroot Powder Banner' className="w-full rounded-lg" />

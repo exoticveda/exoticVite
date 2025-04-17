@@ -10,6 +10,7 @@ const Product  = ({ productId }) => {
 
       <div className="p-6">
         <h2 className="text-xl font-bold font-serif mb-2">{product.name}</h2>
+        <p className="text-yellow-600 text-sm font-medium mt-1">{product.price}</p>
 
         <h3 className="font-semibold text-sm text-gray-700 mb-1">Benefits:</h3>
         <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
