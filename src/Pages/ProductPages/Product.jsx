@@ -20,8 +20,8 @@ const Product  = ({ productId }) => {
           ))}
         </ul>
 
-        <div className="mt-4">
-          <Link to={product.link}className="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition">   Buy Now</Link>
+        <div className="mt-4 text-center w-full">
+          <Link to={product.link}className="inline-block   text-center bg-green-600 text-white px-4 py-2 rounded hover:bg-black transition w-full">   Buy Now</Link>
 
 
 

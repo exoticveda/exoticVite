@@ -15,6 +15,13 @@ const BeetrootPowder = () => {
   {/* Images Section */}
   <div className="flex flex-col md:flex-row gap-4 w-full md:w-1/2">
     {/* Thumbnail List */}
+    <div className="flex-1 md:hidden">
+      <img
+        src={currentImage}
+        alt="Main product"
+        className="w-full max-h-[400px] md:max-h-[500px] object-contain rounded-lg"
+      />
+    </div>
     <div className="flex md:flex-col gap-2 overflow-x-auto md:overflow-visible">
       {images.map((img, idx) => (
         <img
@@ -26,15 +33,16 @@ const BeetrootPowder = () => {
         />
       ))}
     </div>
-
-    {/* Main Image */}
-    <div className="flex-1">
+    <div className="flex-1 hidden md:block">
       <img
         src={currentImage}
         alt="Main product"
         className="w-full max-h-[400px] md:max-h-[500px] object-contain rounded-lg"
       />
     </div>
+
+    {/* Main Image */}
+
   </div>
 
   {/* Product Content Section */}
@@ -53,13 +61,13 @@ const BeetrootPowder = () => {
 
         <div className="flex gap-4 mb-6">
           <button
-            className={`px-4 py-2 rounded-md ${activeTab === 'skinCare' ? 'bg-pink-600 text-white' : 'bg-gray-200'}`}
+            className={`px-4 py-2 rounded-md ${activeTab === 'skinCare' ? 'bg-green-600 text-white' : 'bg-gray-200'}`}
             onClick={() => setActiveTab('skinCare')}
           >
             Tips For Skin Care
           </button>
           <button
-            className={`px-4 py-2 rounded-md ${activeTab === 'hairCare' ? 'bg-pink-600 text-white' : 'bg-gray-200'}`}
+            className={`px-4 py-2 rounded-md ${activeTab === 'hairCare' ? 'bg-green-600 text-white' : 'bg-gray-200'}`}
             onClick={() => setActiveTab('hairCare')}
           >
             Tips For The Dietcare
