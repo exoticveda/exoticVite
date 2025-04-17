@@ -7,7 +7,7 @@ export const products = [
     description: 'Shikakai Powder is a natural hair cleanser that strengthens roots, promotes growth, and adds shine while gently nourishing your scalp and hair',
     updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://revaais.com/products/organic-shikakai-powder?_pos=10&_sid=5edfdd030&_ss=r',
-    route: '/recipe-aloe-vera',
+    route: '/products/shikhakhai-powder',
     price: "$7",
     categories: ['Hair'],
   },
@@ -19,7 +19,7 @@ export const products = [
     description: ' Boost your energy and vitality with pure Shilajit. A 100% natural supplement for stamina, endurance, and overall wellness. ',
     updateInfo: ' Click here to Learn Our  Tips ',
     buyLink: 'https://revaais.com/products/premium-shilajit-resin-100-pure-organic-natural-energy-stamina-booster-50g',
-    // route: '/products/sandalwood-powder',
+    route: '/products/shilajit',
     categories: ['Wellness'],
   },
   {
@@ -30,7 +30,7 @@ export const products = [
     description: ' Boost your immunity and vitality with Yuvprash Tablets. A natural herbal supplement inspired by Vedic Chyawanprash for wellness.',
     updateInfo: ' Click here to Learn Our  Tips ',
     buyLink: 'https://revaais.com/products/exotic-veda-yuvprash-tablets-vedic-chyawanprash-in-tablet-form-herbal-supplement',
-    // route: '/products/sandalwood-powder',
+    route: '/products/yuvprash',
     categories: ['Wellness'],
   },
 
@@ -114,7 +114,7 @@ export const products = [
     description: 'Support your health with our Jamun Seed Powder. Known for its antioxidant properties, it helps manage blood sugar levels and boosts digestion',
     updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://revaais.com/products/exotic-veda-jamun-seed-powder-eugenia-jambolana-black-plum-syzygium-cumini-100-grams?_pos=8&_sid=5edfdd030&_ss=r',
-    route: '/products/jaamun-seed',
+    route: '/products/Lemongrass',
     price: "$4.99",
     categories: ['Hair', 'Skin', 'Diet', 'Wellness'],
   },
@@ -134,7 +134,7 @@ export const products = [
     id: 9,
     link: '/products/alum-bar',
     img: '/assets/Assets/Alumbar/Alumbarss.jpg',
-    title: 'Alum Bar Powder   Minimize Pores and Soothe Skin Naturally',
+    title: 'Alum Bar Minimize Pores and Soothe Skin Naturally',
     description: 'Experience natural freshness with our Alum Bar, perfect for tightening pores, soothing skin, and acting as a gentle, chemical-free deodorant.',
     updateInfo: ' Click here to Learn Our  Tips  ',
     buyLink: 'https://revaais.com/products/revaais-pure-alum-block-for-shaving?_pos=1&_sid=30940bafe&_ss=r?variant=48956892152129',
@@ -579,6 +579,8 @@ export const productData = {
   "hennapowder": {
     name: "Henna Powder For Body Art Work - Create Stunning Heena Body Tattoos, Mehndi Body Designs & Elegant Mehndi Art For Occasions - Perfect Tattoo Gun Alternative - Hair Dye Solution",
     price: '$6.99',
+    link:'https://revaais.com/products/exotic-veda-organic-henna-powder-100-natural-hair-dye-from-rajasthan-india-lawsonia-inermis-non-gmo-deep-brown-100g'
+,
     description: [
       "Versatile Body Art: Create Stunning Body Art With Our Premium Henna Powder. Perfect For Heena Body Art, Mehndi Body Designs, And Temporary Tattoos For Adults. Safe For All Skin Types And Easy To Use.",
       "Rich, Natural Color: Our Henna Powder Provides A Deep, Rich Color For Traditional Mehndi And Creative Body Art. Whether For Festivals Or Special Occasions, Achieve Long-Lasting, Elegant Body Mehndi Designs.", "Easy Application: Enjoy Hassle-Free Application With Our Finely Ground Henna Powder. Ideal For Intricate Mehndi Art On Body, Ensuring Smooth, Even Designs.",
@@ -586,8 +588,6 @@ export const productData = {
       "   Safe & Natural: Made From 100% Natural Ingredients, Our Henna Powder Is Free From Harmful Chemicals. Suitable For Sensitive Skin And Ideal For Temporary Tattoos, Eyebrow Tint, And Root Touch Up Hair Color.  ",
       " Perfect For Celebrations: Enhance Your Festivals, Weddings, And Celebrations With Our Henna Powder. Create Unique Mehndi Body Art, Heena Body Designs, And Temporary Tattoos For Adults. Includes Tattoo Supplies And Henna Stencils.",
       "Strengthens Hair Strands: Henna Powder Contains A Potent Compound Called Lawsone, Which Binds With The Natural Keratin Protein In Your Hair Strands To Form A Protective Layer. This Gives Your Hair A Natural Tint, Making It Strong And Less Prone To Breakage. So, While You're Rocking That Awesome Henna Color, Your Hair Is Getting A Strength Boost, Making It Healthier And More Resilient. ",
-
-
 
     ]
   },
@@ -641,13 +641,12 @@ export const productData = {
       "Known For Its Anti-Inflammatory Properties, Moringa Can Help Reduce Inflammation In The Body, Supporting Joint And Bone Health. ",
 
 
-
     ]
   },
 
   "shikakaipowder": {
     name: "Organic Shikakai Powder Natural Hair Cleanser and Conditioner, Non-GMO, Herbal Formula for Strong, Shiny Hair, 100g",
-    price: { current: 5.46, original: 7.23 },
+    price: "$7",
     description: [
 
       " Crafted from pure and organic shikakai pods, our shikakai powder offers a natural and gentle solution for hair care.Known for its rich nutrients, shikakai has been used in Ayurveda for centuries to promote hair growth, reduce dandruff, and strengthen the hair from root to tip.",
@@ -901,17 +900,3 @@ export const hennahairCareRecipes = [
   }
 ];
 
-export const hennaproductDetails = {
-  title: "Organic Henna Powder | 100% Natural Hair Dye from Rajasthan India Lawsonia Inermis Non-GMO Deep Brown (100g)",
-  bannerImg: "assets.Hennabanner1",
-  buyNowLink: ' https://revaais.com/products/exotic-veda-organic-henna-powder-100-natural-hair-dye-from-rajasthan-india-lawsonia-inermis-non-gmo-deep-brown-100g?pr_prod_strat=pinned&pr_rec_id=6b80d5bde&pr_rec_pid=9603475800385&pr_ref_pid=9583822831937&pr_seq=uniform',
-  images: ['', ''],
-  descriptionPoints: ["Natural Hair Dye: Exotic Veda Henna Powder Is A Natural Hair Dye That Offers A Chemical-Free Way To Color Your Hair. It Provides A Rich, Deep Shade Of Red-Brown That Enhances Your Hair's Natural Beauty. Suitable For All Hair Types, It Covers Grays Effectively And Leaves Hair Looking Vibrant And Healthy Without The Use Of Harmful Chemicals"
-    , "Nourishes And Conditions Hair: This Henna Powder Is Rich In Tannins And Essential Nutrients That Nourish And Condition Your Hair. Regular Use Helps To Improve Hair Texture, Making It Softer, Shinier, And More Manageable. It Also Helps Repair Damaged Hair By Providing Deep Conditioning."
-    , "Promotes Scalp Health: The Antifungal And Antibacterial Properties Of Exotic Veda Henna Powder Help Maintain A Healthy Scalp. It Can Soothe Irritation, Reduce Dandruff, And Combat Other Scalp Issues, Leaving Your Scalp Feeling Refreshed And Balanced.",
-
-    "Strengthens Hair Roots: Henna Is Known For Its Strengthening Properties, Which Can Help Reduce Hair Breakage And Split Ends. By Fortifying Hair Roots And Strands, This Powder Promotes Thicker, Stronger Hair Growth, Minimizing Hair Fall And Enhancing Overall Hair Health.", "Versatile Use For Different Hair Types: Whether You Have Dry, Oily, Or Normal Hair, Exotic Veda Henna Powder Is Versatile Enough To Meet Your Hair Care Needs. It Can Be Mixed With Various Natural Ingredients Like Coconut Milk, Aloe Vera, Or Yogurt To Create Custom Hair Masks That Target Specific Hair Concerns.",
-
-
-  ]
-};

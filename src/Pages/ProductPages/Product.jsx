@@ -1,5 +1,6 @@
 import React from 'react';
 import { productData } from '../../Components/Data';
+import { Link } from 'react-router-dom';
 const Product  = ({ productId }) => {
   const product = productData[productId];
   if (!product) return <p>Product not found</p>;
@@ -20,14 +21,10 @@ const Product  = ({ productId }) => {
         </ul>
 
         <div className="mt-4">
-          <a
-            href="https://revaais.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition"
-          >
-            Buy Now
-          </a>
+          <Link to={product.link}className="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition">   Buy Now</Link>
+
+
+
         </div>
       </div>
     </div>

@@ -19,6 +19,20 @@ import ScrollToTop from "./ScrollToTop";
 import BeetrootPowder from "../Pages/ProductPages/BeetrootPowder";
 import HennaPowder from "../Pages/ProductPages/HennaPowder";
 import SearchBar from "../Components/Common/Search";
+import AmlaPowder from "../Pages/ProductPages/AmlaPowder";
+import Aloevera from "../Pages/ProductPages/Aloevera";
+import CurryleafPower from "../Pages/ProductPages/CurryleafPower";
+import MulatniMiti from "../Pages/ProductPages/MulatniMiti";
+import SandalwoodPowder from "../Pages/ProductPages/SandalwoodPowder";
+import Lemongrass from "../Pages/ProductPages/Lemongrass";
+import Alumbar from "../Pages/ProductPages/Alumbar";
+import Moringaleafpowder from "../Pages/ProductPages/Moringaleafpowder";
+import TriphalaPowder from "../Pages/ProductPages/TriphalaPowder";
+import Jamunswed from "../Pages/ProductPages/Jamunswed";
+import Yuvprash from "../Pages/ProductPages/Yuvprash";
+// import SandalwoodPowdedr from "../Pages/ProductPages/SandalwoodPowdedr";
+import Shikakhi from "../Pages/ProductPages/Shikakhi";
+import Shilajit from "../Pages/ProductPages/Shilajit";
 const NotFound =({ darkMode }) => {
     return (
       <motion.div
@@ -62,8 +76,24 @@ const NotFound =({ darkMode }) => {
 <Route path="/faq" element={<FAQ/>} />
 <Route path="/terms" element={<TermsAndConditions/>} />
 <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
-<Route path='/products/beetroot-powder'element={<BeetrootPowder/>}/>
-<Route path='/products/henna-powder'element={<HennaPowder/>}/>
+<Route path='/products/beetroot-powder' element={<BeetrootPowder/>}/>
+<Route path='/products/henna-powder' element={<HennaPowder/>}/>
+<Route path='/products/amla-powder' element={<AmlaPowder/>}/>
+<Route path='/products/aloevera-powder' element={<Aloevera/>}/>
+<Route path='/products/curry-leaf-powder' element={<CurryleafPower/>}/>
+<Route path='/products/multani-mitti' element={<MulatniMiti/>}/>
+<Route path='/products/sandalwood-powder'element={<SandalwoodPowder/>}/>
+<Route path='/products/Lemongrass' element={<Lemongrass/>}/>
+<Route path='/products/alum-bar' element={<Alumbar/>}/>
+<Route path='/products/alum-bar' element={<Alumbar/>}/>
+<Route path='/products/moringa-leaf-powder' element={<Moringaleafpowder/>}/>
+<Route path='/products/triphala-powder' element={<TriphalaPowder/>}/>
+<Route path='/products/jaamun-seed' element={<Jamunswed/>}/>
+<Route path='/products/yuvprash' element={<Yuvprash/>}/>
+<Route path='/products/shikhakhai-powder' element={<Shikakhi/>}/>
+<Route path='/products/shilajit' element={<Shilajit/>}/>
+
+
 
 </Routes>
       </>

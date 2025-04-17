@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 import { products } from '../Data';
 
 
@@ -15,6 +15,7 @@ const ProductCard = ({ product }) => (
     <div className="p-4">
       <h3 className="text-lg font-semibold mb-2">{product.title}</h3>
       <p className="text-gray-600 text-sm mb-3">{product.description}</p>
+     <Link to={product.route}><p className="text-gray-600 text-sm mb-3 hover:underline hover:cursor-pointer">{product.updateInfo}➡️</p></Link>
       <div className="flex items-center justify-between">
         <span className="text-green-500 font-bold">{product.price}</span>
         <a href={product.buyLink} target="_blank" rel="noopener noreferrer">

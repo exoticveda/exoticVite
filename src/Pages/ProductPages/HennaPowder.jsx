@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import Product from './Product';
-import {  hennahairCareRecipes,hennaproductDetails } from '../../Components/Data';
+import { hennahairCareRecipes,} from '../../Components/Data';
 import { RecipeCard } from './RecipeCard';
 
 const HennaPowder = () => {
 
   const [activeTab, setActiveTab] = useState('skinCare');
-  const images = ["/assets/Assets/hennapowder/Henna Powder .png", "/assets/Assets/hennapowder/hennaback.png",  "/assets/Assets/hennapowder/henass.jpg", "/assets/Assets/hennapowder/Henna HowTo use .png", "/assets/Assets/hennapowder/hair.jpg",];
+  const images = ["/assets/Assets/hennapowder/Henna Powder .png", "/assets/Assets/hennapowder/hennaback.png", "/assets/Assets/hennapowder/henass.jpg", "/assets/Assets/hennapowder/Henna HowTo use .png", "/assets/Assets/hennapowder/hair.jpg",];
   const [currentImage, setCurrentImage] = useState(images[0]);
 
   return (
