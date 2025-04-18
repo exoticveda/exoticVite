@@ -4,6 +4,7 @@ export const RecipeCard = ({ recipe }) => (
       <img
         src={recipe.image}
         alt={recipe.title}
+          loading="lazy"
         className="rounded-md w-full h-48 object-cover"
       />
       <h2 className="text-xl font-semibold mt-2">{recipe.title}</h2>

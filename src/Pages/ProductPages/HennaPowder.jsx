@@ -20,6 +20,7 @@ const HennaPowder = () => {
               <img
                 key={idx}
                 src={img}
+                  loading="lazy"
                 alt={`Thumbnail ${idx + 1}`}
                 className="w-20 h-20 object-cover rounded-lg cursor-pointer border border-gray-300 shrink-0"
                 onClick={() => setCurrentImage(img)}
@@ -30,6 +31,7 @@ const HennaPowder = () => {
           {/* Main Image */}
           <div className="flex-1">
             <img
+              loading="lazy"
               src={currentImage}
               alt="Main product"
               className="w-full max-h-[400px] md:max-h-[500px] object-contain rounded-lg"
@@ -44,7 +46,7 @@ const HennaPowder = () => {
       </div>
 
       <div className="mt-8">
-        <img src="/assets/Assets/hennapowder/henna Powder banner.png" alt='Beetroot Powder Banner' className="w-full rounded-lg" />
+        <img src="/assets/Assets/hennapowder/henna Powder banner.png" alt='Beetroot Powder Banner' className="w-full rounded-lg"   loading="lazy" />
         <h1 className="text-2xl font-bold mt-4 text-center">Organic Henna - Powder Perfect for  Haircare  Uses</h1>
       </div>
 
@@ -60,7 +62,7 @@ const HennaPowder = () => {
       </div>
 
       <div className="mt-8">
-        <img src="" alt="Beetroot Powder" className="w-full rounded-lg" />
+        <img src=""   loading="lazy" alt="Beetroot Powder" className="w-full rounded-lg" />
         <p className="mt-2 text-sm text-gray-800">
           <span className="font-semibold">Disclaimer:</span> Use Beetroot Powder externally. Avoid contact with eyes, and discontinue use if irritation occurs.
         </p>

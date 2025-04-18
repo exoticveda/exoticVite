@@ -3,27 +3,28 @@ import { motion } from 'framer-motion';
 import { FaArrowRight } from 'react-icons/fa';
 
 const TreatmentImageSection = () => {
-    const [showContent, setShowContent] = useState(false);
+  const [showContent, setShowContent] = useState(false);
 
-    useEffect(() => {
-      const handleScroll = () => {
-        const scrollPosition = window.scrollY;
-        if (scrollPosition > 200) {
-          setShowContent(true);
-        } else {
-          setShowContent(false);
-        }
-      };
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      if (scrollPosition > 200) {
+        setShowContent(true);
+      } else {
+        setShowContent(false);
+      }
+    };
 
-      window.addEventListener('scroll', handleScroll);
-      return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
   return (
     <section className="relative w-full overflow-hidden">
-<div className="hidden md:block relative w-full h-[700px]">
+      <div className="hidden md:block relative w-full h-[700px]">
         <img
           src="https://beyours-theme-beauty.myshopify.com/cdn/shop/files/banner-6.jpg?v=1655430252&width=2000"
           alt="Skincare Banner"
+          loading="lazy"
           className="w-full h-full object-cover"
         />
 

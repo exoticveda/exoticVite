@@ -1,6 +1,6 @@
 import React, { useState,  useMemo, useCallback, useRef, useEffect } from 'react';
 import debounce from 'lodash/debounce';
-
+import { Link } from 'react-router-dom';
 import { FaArrowRight, FaSearch } from 'react-icons/fa';
 import {products} from '../Data'
 const SearchBar = () => {
@@ -101,14 +101,14 @@ const SearchBar = () => {
           <ul>
             {searchResults.map((product) => (
               <li key={product.id}>
-                <a href={product.link}>
+                <Link href={product.link}>
                   <img src={product.img} loading="lazy" alt={product.title} />
                   <div>
                     <h3>{product.title}</h3>
                     <p className='r'>{product.updateInfo}  <FaArrowRight className="arrow-icon"  size={10} marginTop='100px' color="blue" style={{ marginLeft: '8px' }} /></p>
                   </div>
 
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

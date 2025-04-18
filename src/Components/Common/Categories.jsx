@@ -17,28 +17,29 @@ const Categories = ({ shape = "rounded" }) => {
       </h2>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-4 mt-4">
-  {categories.map((cat) => (
-    <Link
-      to={cat.href}
-      key={cat.name}
-      className="group flex flex-col items-center text-center transition-transform transform hover:scale-105 focus-within:scale-105 active:scale-105"
-    >
-      <div
-        className={`w-40 h-40 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-50 lg:h-50 overflow-hidden shadow-md transition-all duration-300 ease-in-out ${shape === "rounded" ? "rounded-full" : "rounded-md"
-          }`}
-      >
-        <img
-          src={cat.img}
-          alt={cat.name}
-          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 group-focus-within:scale-105 group-active:scale-105"
-        />
+        {categories.map((cat) => (
+          <Link
+            to={cat.href}
+            key={cat.name}
+            className="group flex flex-col items-center text-center transition-transform transform hover:scale-105 focus-within:scale-105 active:scale-105"
+          >
+            <div
+              className={`w-40 h-40 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-50 lg:h-50 overflow-hidden shadow-md transition-all duration-300 ease-in-out ${shape === "rounded" ? "rounded-full" : "rounded-md"
+                }`}
+            >
+              <img
+                src={cat.img}
+                alt={cat.name}
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105 group-focus-within:scale-105 group-active:scale-105"
+                loading="lazy"
+              />
+            </div>
+            <p className="mt-3 text-base md:text-lg font-medium group-hover:underline group-focus-within:underline group-active:underline">
+              {cat.name}
+            </p>
+          </Link>
+        ))}
       </div>
-      <p className="mt-3 text-base md:text-lg font-medium group-hover:underline group-focus-within:underline group-active:underline">
-        {cat.name}
-      </p>
-    </Link>
-  ))}
-</div>
 
     </div>
   );

@@ -119,6 +119,7 @@ const Gallery = () => {
               src={item.src}
               alt={item.content}
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-transparent md:bg-white/50 md:backdrop-blur-md flex flex-col items-center justify-center opacity-100 md:opacity-0 group-hover:opacity-100 transition duration-300">
               <p className="text-md md:text-lg font-semibold mb-2 text-center text-black md:text-black">

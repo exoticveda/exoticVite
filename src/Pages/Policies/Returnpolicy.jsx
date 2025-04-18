@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 const ReturnPolicy = () => {
   const [activeTab, setActiveTab] = useState('shipping');
 
@@ -48,7 +48,7 @@ const ReturnPolicy = () => {
 
           <h2 className="text-lg font-semibold">6. Returns Policy</h2>
           <p>
-            See our <a href="/returns-policy" className="text-blue-600 underline">Returns Policy</a>.
+            See our <Link href="/returns-policy" className="text-blue-600 underline">Returns Policy</Link>.
           </p>
 
           <h2 className="text-lg font-semibold">7. Shipping Restrictions</h2>
