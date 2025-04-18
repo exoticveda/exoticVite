@@ -67,9 +67,12 @@ const NotFound =({ darkMode }) => {
 <Route path="/" element={<Home/>} />
 <Route path="/products" element={<ProductGrid/>} />
 <Route path="/Dietry-Use-Category" element={<Dietryuse/>} />
+<Route path="/category/dietary" element={<Dietryuse/>} />
 <Route path="/category/haircare" element={<Haircare/>} />
 <Route path="/Skincaree-category" element={<Skincare/>} />
+<Route path="/category/skincare" element={<Skincare/>} />
 <Route path="/Diya-Batti" element={<PoojaItmes/>} />
+<Route path="/category/puja-items" element={<PoojaItmes/>} />
 <Route path="/aboutus" element={<Aboutus/>} />
 <Route path="/wellness" element={<Wellness/>} />
 <Route path="/return-policy" element={<ReturnPolicy/>} />
@@ -84,7 +87,6 @@ const NotFound =({ darkMode }) => {
 <Route path='/products/multani-mitti' element={<MulatniMiti/>}/>
 <Route path='/products/sandalwood-powder'element={<SandalwoodPowder/>}/>
 <Route path='/products/Lemongrass' element={<Lemongrass/>}/>
-<Route path='/products/alum-bar' element={<Alumbar/>}/>
 <Route path='/products/alum-bar' element={<Alumbar/>}/>
 <Route path='/products/moringa-leaf-powder' element={<Moringaleafpowder/>}/>
 <Route path='/products/triphala-powder' element={<TriphalaPowder/>}/>
