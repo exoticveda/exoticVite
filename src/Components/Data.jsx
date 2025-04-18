@@ -300,7 +300,7 @@ export const beetrootDietaryRecipes = [
       'Serve warm for a nutritious and vibrant meal.'
     ],
     benefits: 'Adds nutrients like iron and folate to warm, comforting dishes.',
-    image: 'assets.betroot'// Replace with the correct image path or import
+    image: ' '// Replace with the correct image path or import
   }
 ];
 
@@ -531,7 +531,7 @@ export const productData = {
   },
   "Aloevera": {
     name: "   Pure Aloe Vera Powder - Helps Nourish Scalp, Boost Hair Growth, Aids in Skin Dryness, Cuts, Sunburns, Natural Herbal Supplement for Skin & Hair Care (100g)",
-    price: { current: 5.46, original: 7.23 },
+    price:  "$7",
     description: [
 
       "100% Natural, GMO Free: Our Product Is 100% Natural, Organic, GMO-Free, And Manufactured Under GMP-Compliant Facilities. Sourced From The Finest Aloe Vera Plants From Organic Farms, You're Receiving A Package Of Unadulterated Aloe Vera Powder. ",
@@ -900,3 +900,242 @@ export const hennahairCareRecipes = [
   }
 ];
 
+
+
+
+
+export const Aloeverarecipesskin = [
+  {
+    id: 1,
+    title: 'Aloe Vera and Tea Tree Oil Face Pack',
+    skinType: 'Oily and Acne-Prone Skin',
+    ingredients: [
+      '1 tablespoon aloe vera powder',
+      '2-3 drops tea tree oil',
+      'Water or rose water',
+    ],
+    instructions: [
+      'Mix aloe vera powder with enough water or rose water to form a smooth paste.',
+      'Add 2-3 drops of tea tree oil and mix well.',
+      'Apply the paste evenly to your face, focusing on acne-prone areas.',
+      'Leave it on for 15-20 minutes.',
+      'Rinse off with lukewarm water and pat dry.',
+    ],
+    benefits:
+      'This face pack helps control excess oil, reduce acne, and soothe inflammation, thanks to the anti-inflammatory and antibacterial properties of aloe vera and tea tree oil.',
+    img: '',
+  },
+  {
+    id: 2,
+    title: 'Aloe Vera and Honey Hydrating Mask',
+    skinType: 'Dry and Sensitive Skin',
+    ingredients: [
+      '1 tablespoon aloe vera powder',
+      '1 tablespoon honey',
+      '1 tablespoon yogurt',
+    ],
+    instructions: [
+      'Mix aloe vera powder with honey and yogurt to create a smooth paste.',
+      'Apply the mask to your face, focusing on dry and sensitive areas.',
+      'Leave it on for 15-20 minutes.',
+      'Rinse off with lukewarm water and gently pat dry.',
+    ],
+    benefits:
+      'This mask deeply hydrates and soothes dry, sensitive skin, leaving it soft and moisturized.',
+    img:  '',
+  },
+  {
+    id: 3,
+    title: 'Aloe Vera and Cucumber Cooling Mask',
+    skinType: 'Combination Skin',
+    ingredients: [
+      '1 tablespoon aloe vera powder',
+      '2 tablespoons cucumber juice',
+      '1 teaspoon yogurt',
+    ],
+    instructions: [
+      'Mix aloe vera powder with cucumber juice and yogurt to form a smooth paste.',
+      'Apply the mask to your face, focusing on both oily and dry areas.',
+      'Leave it on for 15-20 minutes.',
+      'Rinse off with lukewarm water and pat dry.',
+    ],
+    benefits:
+      'This mask helps balance the skin, providing hydration to dry areas while cooling and soothing oily parts.',
+    img: '',
+  },
+  {
+    id: 4,
+    title: 'Aloe Vera and Vitamin E Anti-Aging Mask',
+    skinType: 'Aging Skin',
+    ingredients: [
+      '1 tablespoon aloe vera powder',
+      '1 capsule of vitamin E (or 1 teaspoon vitamin E oil)',
+      'Water',
+    ],
+    instructions: [
+      'Mix aloe vera powder with water to create a smooth paste.',
+      'Add the contents of a vitamin E capsule or vitamin E oil to the paste and mix well.',
+      'Apply the mask to your face, focusing on areas prone to fine lines and wrinkles.',
+      'Leave it on for 20-30 minutes.',
+      'Rinse off with lukewarm water and pat dry.',
+    ],
+    benefits:
+      'This mask nourishes the skin, reduces the appearance of fine lines, and promotes a youthful, radiant complexion.', img: '',
+  },
+  {
+    id: 5,
+    title: 'Aloe Vera and Lemon Brightening Mask',
+    skinType: 'Dull and Tired Skin',
+    ingredients: [
+      '1 tablespoon aloe vera powder',
+      '1 teaspoon lemon juice',
+      'Water or rose water',
+    ],
+    instructions: [
+      'Mix aloe vera powder with lemon juice and enough water or rose water to form a smooth paste.',
+      'Apply the mask to your face, focusing on areas that appear dull or tired.',
+      'Leave it on for 15-20 minutes.',
+      'Rinse off with lukewarm water and gently pat dry.',
+    ],
+    benefits:
+      'This mask brightens the skin, reduces the appearance of dark spots, and revitalizes tired-looking skin.',
+    img: '',
+  },
+  {
+    id: 6,
+    title: 'Aloe Vera and Rosewater Refreshing Mask',
+    skinType: 'Normal Skin',
+    ingredients: [
+      '1 tablespoon aloe vera powder',
+      '1 tablespoon rosewater',
+      '1 teaspoon honey (optional)',
+    ],
+    instructions: [
+      'Mix aloe vera powder with rosewater (and honey, if desired) to create a smooth paste.',
+      'Apply the mask to your face, covering all areas evenly.',
+      'Leave it on for 15-20 minutes.',
+      'Rinse off with lukewarm water and gently pat dry.',
+    ],
+    benefits:
+      'This mask refreshes and maintains the skin’s natural balance, leaving it soft, smooth, and glowing.',
+    img:  '',
+  },
+];
+
+export const AloeverahairCareRecipes = [
+  {
+    id: 1,
+    title: 'Aloe Vera and Coconut Oil Hair Mask',
+    hairType: 'Dry and Frizzy Hair',
+    ingredients: [
+      '2 tablespoons aloe vera powder',
+      '3-4 tablespoons coconut oil',
+      '1 tablespoon honey',
+    ],
+    instructions: [
+      'Mix aloe vera powder with coconut oil and honey to form a smooth paste.',
+      'Apply the mixture to your scalp and hair, focusing on the ends where dryness is most apparent.',
+      'Leave it on for 30-60 minutes.',
+      'Rinse thoroughly with lukewarm water and shampoo as usual.',
+    ],
+    benefits:
+      'This mask deeply moisturizes and nourishes dry, frizzy hair, leaving it soft, smooth, and manageable.',
+    img: '',
+  },
+  {
+    id: 2,
+    title: 'Aloe Vera and Lemon Juice Hair Pack',
+    hairType: 'Oily Hair',
+    ingredients: [
+      '2 tablespoons aloe vera powder',
+      '1 tablespoon lemon juice',
+      'Water or yogurt to make a paste',
+    ],
+    instructions: [
+      'Mix aloe vera powder with lemon juice and enough water or yogurt to create a smooth paste.',
+      'Apply the paste to your scalp, focusing on the roots where oil tends to build up.',
+      'Leave it on for 20-30 minutes.',
+      'Rinse thoroughly with lukewarm water and follow with a mild shampoo.',
+    ],
+    benefits:
+      'This hair pack helps control excess oil, cleanses the scalp, and adds volume to oily hair.',
+    img: '',
+  },
+  {
+    id: 3,
+    title: 'Aloe Vera and Neem Powder Mask',
+    hairType: 'Dandruff and Itchy Scalp',
+    ingredients: [
+      '2 tablespoons aloe vera powder',
+      '2 tablespoons neem powder',
+      'Water to make a paste',
+    ],
+    instructions: [
+      'Mix aloe vera powder with neem powder and water to form a thick paste.',
+      'Apply the paste to your scalp, focusing on areas affected by dandruff and itchiness.',
+      'Leave it on for 20-30 minutes.',
+      'Rinse thoroughly with lukewarm water and shampoo as usual.',
+    ],
+    benefits:
+      'This mask helps reduce dandruff, soothes an itchy scalp, and promotes a healthier scalp environment.',
+    img: '',
+  },
+  {
+    id: 4,
+    title: 'Aloe Vera and Fenugreek (Methi) Hair Mask',
+    hairType: 'Hair Growth and Strengthening',
+    ingredients: [
+      '2 tablespoons aloe vera powder',
+      '2 tablespoons fenugreek powder',
+      'Water to make a paste',
+    ],
+    instructions: [
+      'Soak fenugreek powder in water overnight to create a paste.',
+      'Mix the fenugreek paste with aloe vera powder.',
+      'Apply the mixture to your scalp, massaging gently to stimulate the hair follicles.',
+      'Leave it on for 30-45 minutes.',
+      'Rinse thoroughly with lukewarm water and shampoo as usual.',
+    ],
+    benefits:
+      'This mask strengthens hair roots, reduces hair fall, and promotes healthy hair growth.',
+    img: '',
+  },
+  {
+    id: 5,
+    title: 'Aloe Vera and Hibiscus Hair Mask',
+    hairType: 'Normal Hair',
+    ingredients: [
+      '2 tablespoons aloe vera powder',
+      '2 tablespoons hibiscus powder',
+      'Water or yogurt to make a paste',
+    ],
+    instructions: [
+      'Mix aloe vera powder with hibiscus powder and water or yogurt to form a smooth paste.',
+      'Apply the mask to your scalp and hair, ensuring even coverage.',
+      'Leave it on for 30-45 minutes.',
+      'Rinse thoroughly with lukewarm water and shampoo as usual.',
+    ],
+    benefits:
+      'This mask maintains overall hair health, adds shine, and keeps hair soft and manageable.',
+    img: '',
+  },
+  {
+    id: 6,
+    title: 'Aloe Vera and Olive Oil Repair Mask',
+    hairType: 'Dull and Damaged Hair',
+    ingredients: [
+      '2 tablespoons aloe vera powder',
+      '2 tablespoons olive oil',
+      '1 tablespoon honey',
+    ],
+    instructions: [
+      'Mix aloe vera powder with olive oil and honey to create a nourishing paste.',
+      'Apply the mixture to your scalp and hair, focusing on damaged areas.',
+      'Leave it on for 30-60 minutes.',
+      'Rinse thoroughly with lukewarm water and shampoo as usual.',
+    ],
+    benefits:
+      'This mask repairs damaged hair, restores moisture, and brings back shine and vitality to dull hair.',
+    img: '',
+  },
+];
