@@ -532,6 +532,7 @@ export const productData = {
   "Aloevera": {
     name: "   Pure Aloe Vera Powder - Helps Nourish Scalp, Boost Hair Growth, Aids in Skin Dryness, Cuts, Sunburns, Natural Herbal Supplement for Skin & Hair Care (100g)",
     price:  "$7",
+    link:'https://revaais.com/products/pure-aloe-vera-powder?srsltid=AfmBOopNd9NBkKfD6ZBHGSD1FwGDg-F1kpkXTrRbI49KNWqoxN2Uysnx',
     description: [
 
       "100% Natural, GMO Free: Our Product Is 100% Natural, Organic, GMO-Free, And Manufactured Under GMP-Compliant Facilities. Sourced From The Finest Aloe Vera Plants From Organic Farms, You're Receiving A Package Of Unadulterated Aloe Vera Powder. ",
