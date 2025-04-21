@@ -429,18 +429,16 @@ export const productData = {
   },
   "shilajit": {
     name: "Premium Shilajit Resin | 100% Pure & Organic | Natural Energy & Stamina Booster (50g)",
-    price: {
-      current: 25.00,
-      original: 35.00,  // You can adjust the original price accordingly
-    },
+    price: '$27.99',
     description: [
       "Enhanced energy and stamina",
       "Improved immunity and vitality",
-      "Optimal mental and physical performance",
-      "Promotes focus, concentration, and overall cognitive health",
       "Flushes out toxins and promotes healthy cellular function with fulvic acid",
       "Reduces oxidative stress and supports skin and joint health for youthful vitality",
       "Strengthens the immune system with its rich mineral and antioxidant content",
+      "Optimal mental and physical performance",
+      "Promotes focus, concentration, and overall cognitive health",
+
     ],
     additionalInfo: [
       { label: "Brand", value: "Exotic Veda" },
@@ -486,17 +484,8 @@ export const productData = {
   },
   "skinrr": {
     name: "Exotic veda skinrr+ gel – ultimate skin repair & rejuvenation with 37 powerful natural ingredients (50ml)",
-    price: { current: 15.00, },
-    additionalInfo: [
-      { label: "Brand", value: "Exotic Veda" },
-      { label: "Form", value: "Gel" },
-      { label: "Packaging Type	", value: "Bottle (50ml)" },
-      // { label: "Origin", value: "Himalayan Mountains" },
-      { label: "Usage", value: "Apply daily to clean skin. Massage gently in circular motions for absorption." },
-      // { label: "Purity", value: "100% Pure & Organic" },
-      { label: "Certification", value: "Lab-tested, Free from additives and preservatives" },
-      { label: "Storage Instructions", value: "Store in a cool, dry place, away from direct sunlight" },
-    ],
+    price:  '$',
+
     description: [
       "        Suitable for dry, oily, combination, and sensitive skin, providing a versatile skincare solution.",
       'Lightweight and fast-absorbing, leaving no sticky residue behind.',
@@ -531,8 +520,8 @@ export const productData = {
   },
   "Aloevera": {
     name: "   Pure Aloe Vera Powder - Helps Nourish Scalp, Boost Hair Growth, Aids in Skin Dryness, Cuts, Sunburns, Natural Herbal Supplement for Skin & Hair Care (100g)",
-    price:  "$7",
-    link:'https://revaais.com/products/pure-aloe-vera-powder?srsltid=AfmBOopNd9NBkKfD6ZBHGSD1FwGDg-F1kpkXTrRbI49KNWqoxN2Uysnx',
+    price: "$7",
+    link: 'https://revaais.com/products/pure-aloe-vera-powder?srsltid=AfmBOopNd9NBkKfD6ZBHGSD1FwGDg-F1kpkXTrRbI49KNWqoxN2Uysnx',
     description: [
 
       "100% Natural, GMO Free: Our Product Is 100% Natural, Organic, GMO-Free, And Manufactured Under GMP-Compliant Facilities. Sourced From The Finest Aloe Vera Plants From Organic Farms, You're Receiving A Package Of Unadulterated Aloe Vera Powder. ",
@@ -541,8 +530,6 @@ export const productData = {
       "Promotes Hair Growth: Aloe Vera Is Packed With A Whole Bunch Of Goodness—Proteolytic Enzymes, Vitamins, Minerals, Polysaccharides, Amino Acids, Antioxidants, And More! They Work Synergistically To Help Nourish The Scalp, Boost Growth, Strengthen The Hair Follicles, And Condition Them. The Results? Your Hair Won't Just Grow; It'll Be Softer, Silkier, And Healthier! ",
       "DIY Aloe Hair Pack: Mix The Powder With Fresh Onion Juice To Make A Smooth Paste. Apply The Paste To Your Hair And Roots While Gently Massaging It. Make Sure To Cover Every Strand. Let It Sit For 30 Minutes For Those Powerful Nutrients To Soak In, Then Rinse It With Water. With Regular Use, You Will Get Silky, Nourished Locks. ",
       "Rich In Antioxidants And Aids In Detoxification. ",
-
-
     ]
   },
 
@@ -556,9 +543,6 @@ export const productData = {
       "Pure And Natural: Our Amla Powder Is 100% Organic And Free From Additives. Made From Amalaki Fruit, It Provides Pure Vitamin C And Other Essential Nutrients. Incorporate It Into Your Diet For A Natural Boost In Vitality And Well-Being. ",
       "Supports Hair And Skin Health: Our Organic Amla Powder Is A Natural Remedy For Promoting Hair Growth And Enhancing Skin Health. Rich In Antioxidants And Vitamin C, It Nourishes From Within. Add It To Your Beauty Routine For Noticeable Results ",
       "Helps In Detoxification, Boosts Immunity: Looking For A Natural Boost That Feels Like A Fresh Start For Your Body? Then Our Amla Powder Is All. This Isn’t Just Any Supplement; It’s A Vitamin C Powerhouse",
-
-
-
     ]
   },
 
@@ -566,8 +550,6 @@ export const productData = {
     name: "Organic Curry Leaf Powder - Kadi Patta, Rich Nutrients, Culinary & Medicinal Uses, Promotes Hair Growth, Reduces Hair Fall & Graying, Skin Care, Regulates Blood Quality, Boosts Immunity",
     price: { current: 5.34, original: 7.23 },
     description: [
-
-
       "Organic And Nutrient-Rich: Our Curry Leaf Powder, Also Known As Kadi Patta, Is Organic And Packed With Essential Nutrients. Complement Your Dishes With The Goodness Of Cinnamon Powder, Arrowroot Powder, Turmeric Powder, Curry Powder, And Cumin Powder For A Wholesome Meal. ",
       "Promotes Hair Growth: Harness The Power Of This Curry Leaf Powder To Promote Hair Growth And Reduce Hair Fall. Blend It With Garam Masala, Turmeric Powder Organic, And Ginger Powder For An Effective Herbal Remedy That Benefits Your Scalp And Hair Health.  ",
       "Boosts Immunity: Keep Your Immune System Strong With Our Curry Leaf Powder. Pair It With Garlic Powder, Onion Powder, And Chili Powder For A Potent Blend. Ideal For Making Golden Milk, Curry Paste, And Other Immunity-Boosting Concoctions. ",
@@ -580,8 +562,8 @@ export const productData = {
   "hennapowder": {
     name: "Henna Powder For Body Art Work - Create Stunning Heena Body Tattoos, Mehndi Body Designs & Elegant Mehndi Art For Occasions - Perfect Tattoo Gun Alternative - Hair Dye Solution",
     price: '$6.99',
-    link:'https://revaais.com/products/exotic-veda-organic-henna-powder-100-natural-hair-dye-from-rajasthan-india-lawsonia-inermis-non-gmo-deep-brown-100g'
-,
+    link: 'https://revaais.com/products/exotic-veda-organic-henna-powder-100-natural-hair-dye-from-rajasthan-india-lawsonia-inermis-non-gmo-deep-brown-100g'
+    ,
     description: [
       "Versatile Body Art: Create Stunning Body Art With Our Premium Henna Powder. Perfect For Heena Body Art, Mehndi Body Designs, And Temporary Tattoos For Adults. Safe For All Skin Types And Easy To Use.",
       "Rich, Natural Color: Our Henna Powder Provides A Deep, Rich Color For Traditional Mehndi And Creative Body Art. Whether For Festivals Or Special Occasions, Achieve Long-Lasting, Elegant Body Mehndi Designs.", "Easy Application: Enjoy Hassle-Free Application With Our Finely Ground Henna Powder. Ideal For Intricate Mehndi Art On Body, Ensuring Smooth, Even Designs.",
@@ -943,7 +925,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This mask deeply hydrates and soothes dry, sensitive skin, leaving it soft and moisturized.',
-    img:  '',
+    img: '',
   },
   {
     id: 3,
@@ -1019,7 +1001,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This mask refreshes and maintains the skin’s natural balance, leaving it soft, smooth, and glowing.',
-    img:  '',
+    img: '',
   },
 ];
 
@@ -1140,3 +1122,125 @@ export const AloeverahairCareRecipes = [
     img: '',
   },
 ];
+
+
+
+export const ShikaahairCareRecipes = [
+  {
+    id: 1,
+    title: 'Shikakai and Lemon Juice Hair Pack',
+    hairType: 'Oily Hair and Scalp',
+    ingredients: [
+      '2 tablespoons shikakai powder',
+      '1 tablespoon lemon juice',
+      'Water to make a paste',
+    ],
+    instructions: [
+      'Mix shikakai powder with lemon juice and enough water to create a smooth paste.',
+      'Apply the paste to your scalp and hair, focusing on the roots where oil tends to accumulate.',
+      'Massage gently into the scalp for a few minutes.',
+      'Leave it on for 15-20 minutes.',
+      'Rinse thoroughly with lukewarm water and follow with a mild shampoo if needed.',
+    ],
+    benefits:
+      'Removes excess oil, cleanses the scalp, and adds volume and freshness to oily hair.',
+    img: '',
+  },
+  {
+    id: 2,
+    title: 'Shikakai and Coconut Milk Hair Mask',
+    hairType: 'Dry and Frizzy Hair',
+    ingredients: [
+      '2 tablespoons shikakai powder',
+      '1/2 cup coconut milk',
+      '1 tablespoon honey',
+    ],
+    instructions: [
+      'Mix shikakai powder with coconut milk and honey to form a smooth, consistent paste.',
+      'Apply the mixture to your scalp and hair, focusing on the ends where frizz is common.',
+      'Leave it on for 30-45 minutes.',
+      'Rinse thoroughly with lukewarm water and shampoo as usual.',
+    ],
+    benefits:
+      'Deeply conditions and nourishes dry, frizzy hair, making it softer and more manageable.',
+    img: '',
+  },
+  {
+    id: 3,
+    title: 'Shikakai and Neem Powder Hair Pack',
+    hairType: 'Dandruff and Itchy Scalp',
+    ingredients: [
+      '2 tablespoons shikakai powder',
+      '1 tablespoon neem powder',
+      'Water to make a paste',
+    ],
+    instructions: [
+      'Mix shikakai powder with neem powder and enough water to form a paste.',
+      'Apply the paste to your scalp, focusing on areas with dandruff or itchiness.',
+      'Leave it on for 20-30 minutes.',
+      'Rinse thoroughly with lukewarm water and follow with a mild shampoo.',
+    ],
+    benefits:
+      'Reduces dandruff, soothes the scalp, and helps maintain a healthy scalp environment.',
+    img: '',
+  },
+  {
+    id: 4,
+    title: 'Shikakai and Amla Hair Mask',
+    hairType: 'Hair Growth and Strengthening',
+    ingredients: [
+      '2 tablespoons shikakai powder',
+      '2 tablespoons amla (Indian gooseberry) powder',
+      'Water to make a paste',
+    ],
+    instructions: [
+      'Mix shikakai powder and amla powder with enough water to form a thick paste.',
+      'Apply the mixture to your scalp, focusing on the roots to stimulate hair follicles.',
+      'Massage gently for a few minutes to promote blood circulation.',
+      'Leave it on for 30-40 minutes.',
+      'Rinse thoroughly with lukewarm water and shampoo as usual if needed.',
+    ],
+    benefits:
+      'Strengthens hair from the roots, promotes hair growth, and reduces hair fall.',
+    img: '',
+  },
+  {
+    id: 5,
+    title: 'Shikakai and Yogurt Hair Mask',
+    hairType: 'Dull and Damaged Hair',
+    ingredients: [
+      '2 tablespoons shikakai powder',
+      '2 tablespoons yogurt',
+      '1 tablespoon olive oil',
+    ],
+    instructions: [
+      'Mix shikakai powder with yogurt and olive oil to create a smooth paste.',
+      'Apply the mixture to your scalp and hair, focusing on damaged areas.',
+      'Leave it on for 30-40 minutes.',
+      'Rinse thoroughly with lukewarm water and shampoo as usual.',
+    ],
+    benefits:
+      'Repairs damaged hair, restores moisture, and brings back shine and vitality to dull hair.',
+    img: '',
+  },
+  {
+    id: 6,
+    title: 'Shikakai and Aloe Vera Hair Pack',
+    hairType: 'Normal Hair',
+    ingredients: [
+      '2 tablespoons shikakai powder',
+      '2 tablespoons aloe vera gel',
+      'Water to make a paste',
+    ],
+    instructions: [
+      'Mix shikakai powder with aloe vera gel and enough water to create a smooth paste.',
+      'Apply the mask evenly to your scalp and hair.',
+      'Leave it on for 20-30 minutes.',
+      'Rinse thoroughly with lukewarm water and shampoo as usual.',
+    ],
+    benefits:
+      'Cleanses and nourishes the hair, maintaining shine and softness.',
+    img: '',
+  },
+];
+
