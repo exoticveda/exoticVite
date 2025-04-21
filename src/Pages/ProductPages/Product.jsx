@@ -15,7 +15,7 @@ const Product = ({ productId }) => {
       <h2 className="text-xl font-bold font-serif mb-2">{product.name}</h2>
 
 <p className="text-yellow-600 text-lg font-semibold mt-1 bg-yellow-100 px-2 py-1 rounded-md shadow-sm inline-block">
-  ₹{product.price}
+  {product.price}
 </p>
 
 {/* Trust Badges */}
