@@ -440,28 +440,11 @@ export const productData = {
       "Promotes focus, concentration, and overall cognitive health",
 
     ],
-    additionalInfo: [
-      { label: "Brand", value: "Exotic Veda" },
-      { label: "Form", value: "Gel/Resin" },
-      { label: "Weight/Volume", value: "50g" },
-      { label: "Origin", value: "Himalayan Mountains" },
-      { label: "Purity", value: "100% Pure & Organic" },
-      { label: "Certification", value: "Lab-tested, Free from additives and preservatives" },
-    ]
+
   },
   "Yuvprash": {
     name: "Exotic Veda Yuvprash Tablets | Vedic Chyawanprash in Tablet Form | Natural Herbal Supplement for Immunity & Vitality",
-    price: { current: 25.00, },
-    additionalInfo: [
-      { label: "Brand", value: "Exotic Veda" },
-      { label: "Form", value: "Tablet" },
-      { label: "Qty", value: "60 Tablets" },
-      // { label: "Origin", value: "Himalayan Mountains" },
-      { label: "Recommended Dosage", value: " Dosage	1 tablet in the morning and evening with warm milk" },
-      // { label: "Purity", value: "100% Pure & Organic" },
-      { label: "Certification", value: "Lab-tested, Free from additives and preservatives" },
-      { label: "Storage Instructions", value: "Store in a cool, dry place, away from direct sunlight" },
-    ],
+    price: '$21.99',
     description: [
       " Enhanced energy and stamina",
 
