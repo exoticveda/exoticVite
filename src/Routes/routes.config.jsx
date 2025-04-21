@@ -33,6 +33,7 @@ import Yuvprash from "../Pages/ProductPages/Yuvprash";
 // import SandalwoodPowdedr from "../Pages/ProductPages/SandalwoodPowdedr";
 import Shikakhi from "../Pages/ProductPages/Shikakhi";
 import Shilajit from "../Pages/ProductPages/Shilajit";
+import Skinrr from "../Pages/ProductPages/Skinrr";
 const NotFound =({ darkMode }) => {
     return (
       <motion.div
@@ -94,6 +95,7 @@ const NotFound =({ darkMode }) => {
 <Route path='/products/yuvprash' element={<Yuvprash/>}/>
 <Route path='/products/shikhakhai-powder' element={<Shikakhi/>}/>
 <Route path='/products/shilajit' element={<Shilajit/>}/>
+<Route path='/products/skinrr' element={<Skinrr/>}/>
 
 
 

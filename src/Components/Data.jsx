@@ -71,6 +71,18 @@ export const products = [
     categories: ['Hair', 'Skin', 'Diet'],
   },
   {
+    id: 3,
+    link: '/products/skinrr',
+    img: '/assets/Assets/Skinrr/Skinrr front and back.png',
+    title: 'Exotic veda skinrr+ gel – ultimate skin repair & rejuvenation with 37 powerful natural ingredients (50ml)',
+    description: 'Suitable for dry, oily, combination, and sensitive skin, providing a versatile skincare solution.',
+    updateInfo: 'Click here to Learn Our  Tips ',
+    buyLink: 'https://revaais.com/products/exotic-veda-curry-powder-organic-curry-powder?_pos=3&_sid=5edfdd030&_ss=r',
+    route: '/products/skinrr',
+    price: '$8.99',
+    categories: ['Skin'],
+  },
+  {
     id: 4,
     link: '/products/henna-powder',
     img: '/assets/Assets/hennapowder/Henna Powder .png',
@@ -467,10 +479,10 @@ export const productData = {
   },
   "skinrr": {
     name: "Exotic veda skinrr+ gel – ultimate skin repair & rejuvenation with 37 powerful natural ingredients (50ml)",
-    price:  '$',
+    price: '$8.99',
 
     description: [
-      "        Suitable for dry, oily, combination, and sensitive skin, providing a versatile skincare solution.",
+      "Suitable for dry, oily, combination, and sensitive skin, providing a versatile skincare solution.",
       'Lightweight and fast-absorbing, leaving no sticky residue behind.',
       'Regular use helps brighten dull skin, giving you a natural glow.',
       "Promotes skin elasticity, making your skin feel firmer and more toned.",

@@ -65,11 +65,12 @@ const Yuvprash = () => {
         <div className=" ">
           <img src="/assets/Assets/Yuvprash/yuvprashExoticvedatablet2.png" alt='Exotic veda Shilajit 35g' loading="lazy" className="w-full " />
         </div>
-        <div className=" ">
-          <img src="/assets/Assets/Yuvprash/yuvprashExoticvedatablet3.png" alt='Exotic veda Shilajit 35g' loading="lazy" className="w-full  " />
-        </div>
+
         <div className=" ">
           <img src="/assets/Assets/Yuvprash/yuvprashExoticvedatablet4.png" alt='Exotic veda Shilajit 35g' loading="lazy" className="w-full  " />
+        </div>
+        <div className=" ">
+          <img src="/assets/Assets/Yuvprash/yuvprashExoticvedatablet3.png" alt='Exotic veda Shilajit 35g' loading="lazy" className="w-full  " />
         </div>
 
 
