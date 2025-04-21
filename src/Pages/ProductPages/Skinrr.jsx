@@ -52,8 +52,6 @@ const Skinrr = () => {
                         {/* Main Image */}
 
                     </div>
-
-                    {/* Product Content Section */}
                     <div className="w-full md:w-1/2">
                         <Product productId="skinrr" />
                     </div>

@@ -194,8 +194,6 @@ export const products = [
 
 
 ];
-
-
 export const beetrootProductDetails = {
   title: "Organic Beetroot Powder | 100% Natural & Non-GMO, Rich in Antioxidants, Boosts Immunity, Vegan-Friendly (100g)",
   bannerImg: '',
@@ -419,21 +417,15 @@ export const beetrootSkinCareRecipes = [
     image: '' // Replace with the correct image path or import
   }
 ];
-
-
 export const productData = {
   "cottonWick": {
     name: "Premium Shilajit Resin | 100% Pure & Organic | Natural Energy & Stamina Booster (50g)",
     price: { current: 7.00, original: 10.23 },
     description: [
-      "  Premium Long Cotton Wicks: Experience The Ultimate In Quality With Our Premium Long Cotton Wicks, Designed For Pooja And Other Religious Rituals. These 100% Organic And Virgin Cotton Wicks Ensure A Clean-Burning And Long-Lasting Experience. ",
-
+      "Premium Long Cotton Wicks: Experience The Ultimate In Quality With Our Premium Long Cotton Wicks, Designed For Pooja And Other Religious Rituals. These 100% Organic And Virgin Cotton Wicks Ensure A Clean-Burning And Long-Lasting Experience. ",
       "Cotton Wicks With Brass Holder: Enhance Your Pooja Setup With Our Cotton Wicks For Diya, Complete With An Elegant Brass Holder. The Stylish Brass Wick Stand Adds A Touch Of Luxury To Your Religious Items, Making Rituals More Meaningful. ",
-
       "High-Quality Pooja Accessories: Our High-Quality Cotton Wicks For Oil Lamps Come With A Robust Brass Diya Stand, Ensuring Durability And Elegance. These Braided Cotton Wicks Are Perfect For All Your Pooja Lamp Needs, Offering Superior Performance. ",
-
       "Versatile Diya Cotton Wick Set: This Pooja Wick Set Includes Long Cotton Wicks And A Brass Holder, Suitable For Various Rituals. The Flat Cotton Wick Design Ensures Efficient Burning, Making It An Essential Addition To Your Pooja Accessories. ",
-
       "Elegant And Decorative Design: Our Decorative Cotton Wicks With A Brass Base Are Perfect For Enhancing Your Spiritual Practices. The Round Cotton Wick And Brass Diya Set Combine Functionality With Elegance, Creating A Serene Ambiance. ",
 
 
@@ -459,27 +451,20 @@ export const productData = {
     price: '$21.99',
     description: [
       " Enhanced energy and stamina",
-
       "Improved immunity and vitality ",
-
       "Fortified with natural ingredients such as Ashwagandha, Amla, Tulsi, and more",
-
       "Promotes focus, concentration, and overall cognitive health ",
-
       "Easy-to-use tablets for daily health and wellness",
-
       "Reduces oxidative stress and supports skin and joint health for youthful vitality ",
-
       "Helps combat free radicals and supports overall health.",
       "Take 1 tablet in the morning and evening with warm milk for best results",
-
       "Consult your healthcare provider if you are pregnant, nursing, or taking medication.Not evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease"
-
     ]
   },
   "skinrr": {
     name: "Exotic veda skinrr+ gel – ultimate skin repair & rejuvenation with 37 powerful natural ingredients (50ml)",
     price: '$8.99',
+    link: 'https://revaais.com/products/exotic-veda-skinrr-gel-ultimate-skin-repair-rejuvenation-with-37-powerful-natural-ingredients-50ml?_pos=1&_sid=d75b123a0&_ss=r',
 
     description: [
       "Suitable for dry, oily, combination, and sensitive skin, providing a versatile skincare solution.",
@@ -527,7 +512,6 @@ export const productData = {
       "Rich In Antioxidants And Aids In Detoxification. ",
     ]
   },
-
   "Amlapowder": {
     name: "Organic Amla Powder - Dried Indian Gooseberries Amla Wellness Powder, Pure Vitamin C Powder for Hair Growth & Immunity Boost, Rich Antioxidant Amalaki Fruit Powder, Organic Amla for Eating",
     price: { current: 5.42, original: 7.23 },
@@ -540,7 +524,6 @@ export const productData = {
       "Helps In Detoxification, Boosts Immunity: Looking For A Natural Boost That Feels Like A Fresh Start For Your Body? Then Our Amla Powder Is All. This Isn’t Just Any Supplement; It’s A Vitamin C Powerhouse",
     ]
   },
-
   "curryleafpowder": {
     name: "Organic Curry Leaf Powder - Kadi Patta, Rich Nutrients, Culinary & Medicinal Uses, Promotes Hair Growth, Reduces Hair Fall & Graying, Skin Care, Regulates Blood Quality, Boosts Immunity",
     price: { current: 5.34, original: 7.23 },
@@ -562,16 +545,14 @@ export const productData = {
     description: [
       "Versatile Body Art: Create Stunning Body Art With Our Premium Henna Powder. Perfect For Heena Body Art, Mehndi Body Designs, And Temporary Tattoos For Adults. Safe For All Skin Types And Easy To Use.",
       "Rich, Natural Color: Our Henna Powder Provides A Deep, Rich Color For Traditional Mehndi And Creative Body Art. Whether For Festivals Or Special Occasions, Achieve Long-Lasting, Elegant Body Mehndi Designs.", "Easy Application: Enjoy Hassle-Free Application With Our Finely Ground Henna Powder. Ideal For Intricate Mehndi Art On Body, Ensuring Smooth, Even Designs.",
-
-      "   Safe & Natural: Made From 100% Natural Ingredients, Our Henna Powder Is Free From Harmful Chemicals. Suitable For Sensitive Skin And Ideal For Temporary Tattoos, Eyebrow Tint, And Root Touch Up Hair Color.  ",
-      " Perfect For Celebrations: Enhance Your Festivals, Weddings, And Celebrations With Our Henna Powder. Create Unique Mehndi Body Art, Heena Body Designs, And Temporary Tattoos For Adults. Includes Tattoo Supplies And Henna Stencils.",
+      "Safe & Natural: Made From 100% Natural Ingredients, Our Henna Powder Is Free From Harmful Chemicals. Suitable For Sensitive Skin And Ideal For Temporary Tattoos, Eyebrow Tint, And Root Touch Up Hair Color.  ",
+      "Perfect For Celebrations: Enhance Your Festivals, Weddings, And Celebrations With Our Henna Powder. Create Unique Mehndi Body Art, Heena Body Designs, And Temporary Tattoos For Adults. Includes Tattoo Supplies And Henna Stencils.",
       "Strengthens Hair Strands: Henna Powder Contains A Potent Compound Called Lawsone, Which Binds With The Natural Keratin Protein In Your Hair Strands To Form A Protective Layer. This Gives Your Hair A Natural Tint, Making It Strong And Less Prone To Breakage. So, While You're Rocking That Awesome Henna Color, Your Hair Is Getting A Strength Boost, Making It Healthier And More Resilient. ",
-
     ]
   },
   "lemongrasspowder": {
     name: "Organic Lemongrass Powder | Dried Lemon Powder | Vitamin C Rich | Perfect For Cooking | Dandelion Tea Enhancer | Lemon Juice Substitute | Real Lemon Zest | Micro Ingredients | 100gm",
-    price: { current: 5.38, original: 7.23 },
+    price: '$',
     description: [
       "Organic Lemongrass Powder: Delight In The Gluten Free, Organic Lemongrass Powder For Cooking. Ideal For Adding Flavor To Thai Dishes, Soups, And Marinades. ",
       "Natural Detoxifier: Helps cleanse the body by removing toxins, promoting overall health and vitality. ",
@@ -580,15 +561,11 @@ export const productData = {
       "Dehydrated Lemon Powder: Enhance Your Recipes With Our Organic, Gluten Free Dehydrated Lemon Powder. Perfect For Desserts, Beverages, And Seasoning. ",
       "Lemongrass Paste For Cooking: Experience The Convenience Of Our Gluten Free, Organic Lemongrass Paste. Ideal For Adding Authentic Flavor To Thai Dishes And More. ",
       "Freeze Dried Lemon Powder: Our Gluten Free, Organic Freeze Dried Lemon Powder Is Perfect For Enhancing Drinks, Desserts, And Baked Goods With True Lemon Flavor. ",
-
-
-
     ]
   },
-
   "moringapowder": {
     name: "Exotic Veda Moringa Leaf Powder Moringa Oleifera Vegan & Gluten Free Raw Sun Dried Oleifera Leaf Powder for Herbal Tea, Smoothies, Sauces, and Dips for Immune Health | 100% Natural, Non-GMO (100g)",
-    price: { current: 5.38, original: 7.23 },
+    price: '$',
     description: [
 
       "Rich in essential nutrients, Moringa Leaf Powder contains high levels of vitamins A, C, and E, as well as calcium, potassium, and iron. ",
@@ -604,7 +581,6 @@ export const productData = {
 
     ]
   },
-
   "Beetrootpowder": {
     name: " Exotic Veda Beetroot Powder | 100% Natural, Vegan & Gluten-Free Superfood for Health & Beauty (100g)",
     price: '$6.99',
@@ -621,7 +597,6 @@ export const productData = {
 
     ]
   },
-
   "shikakaipowder": {
     name: "Organic Shikakai Powder Natural Hair Cleanser and Conditioner, Non-GMO, Herbal Formula for Strong, Shiny Hair, 100g",
     price: "$7",
@@ -643,7 +618,7 @@ export const productData = {
 
   "Multanimittipowder": {
     name: "Multani Mitti Powder Fullers Earth Clay - 100% Pure Natural Indian Clay for Skin Cleansing - Suitable for All Skin Ideal for Face Masks and Body Scrubs | 100% Natural, Non-GMO (100g)",
-    price: { current: 5.20, original: 7.23 },
+    price: '',
     description: [
 
       " 100% NATURAL, GMO-FREE: Sourced directly from the fertile lands, our Multani Mitti (or Fuller's Earth), is a testament to what true organic skincare should be. Completely natural and steadfastly GMO-Free, our product isn't just good for your skin; it's a commitment to ethical, sustainable beauty practices that honor the earth and its bounty. ",
@@ -660,7 +635,7 @@ export const productData = {
 
   "triphalpowder": {
     name: "Organic Triphala Powder - Detox Cleanse for Lung, Liver, Colon, and Gut Health - Herbal Skin Care and Fiber Powder - Detox Cleanse with Triphala Ghrita and Triphala Organic India - 100g",
-    price: { current: 5.39, original: 7.23 },
+    price: '$',
     description: [
 
       "Made from a blend of three powerful fruits – Amla, Haritaki, and Bibhitaki, Triphala powder offers an all-natural solution for hair care and overall wellness. ",
@@ -764,8 +739,6 @@ export const productData = {
   },
 
 };
-
-
 export const hennahairCareRecipes = [
   {
     id: 1,
@@ -877,10 +850,6 @@ export const hennahairCareRecipes = [
     image: "assets.henna" // Replace with the correct image path or import
   }
 ];
-
-
-
-
 
 export const Aloeverarecipesskin = [
   {
@@ -1117,8 +1086,6 @@ export const AloeverahairCareRecipes = [
     img: '',
   },
 ];
-
-
 
 export const ShikaahairCareRecipes = [
   {
