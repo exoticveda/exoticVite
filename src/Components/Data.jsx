@@ -144,7 +144,7 @@ export const products = [
     categories: ['Hair', 'Skin', 'Diet', 'Wellness'],
   },
   {
-    id:12,
+    id: 12,
     link: '/products/beetroot-powder',
     img: "/assets/Assets/beetroot/beetroot  powder  front.png",
     title: 'Beetroot Powder: Delicious Superfood for Glowing Skin & Diet Support',
@@ -157,7 +157,7 @@ export const products = [
     categories: ['Hair', 'Skin', 'Diet'],
   },
   {
-    id:13,
+    id: 13,
     link: '/products/alum-bar',
     img: '/assets/Assets/Alumbar/Alumbarss.jpg',
     title: 'Alum Bar Minimize Pores and Soothe Skin Naturally',
@@ -888,7 +888,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This face pack helps control excess oil, reduce acne, and soothe inflammation, thanks to the anti-inflammatory and antibacterial properties of aloe vera and tea tree oil.',
-    img: '',
+    img: '/assets/Assets/Aloe/close-up-woman-wearing-face-mask.jpg',
   },
   {
     id: 2,
@@ -907,7 +907,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This mask deeply hydrates and soothes dry, sensitive skin, leaving it soft and moisturized.',
-    img: '',
+    img: '/assets/Assets/Aloe/Aloe vera  front.png',
   },
   {
     id: 3,
@@ -926,7 +926,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This mask helps balance the skin, providing hydration to dry areas while cooling and soothing oily parts.',
-    img: '',
+    img: '/assets/Assets/Aloe/close-up-woman-wearing-face-mask.jpg',
   },
   {
     id: 4,
@@ -944,8 +944,10 @@ export const Aloeverarecipesskin = [
       'Leave it on for 20-30 minutes.',
       'Rinse off with lukewarm water and pat dry.',
     ],
+
     benefits:
-      'This mask nourishes the skin, reduces the appearance of fine lines, and promotes a youthful, radiant complexion.', img: '',
+      'This mask nourishes the skin, reduces the appearance of fine lines, and promotes a youthful, radiant complexion.',
+    img: '/assets/Assets/Aloe/Aloe vera  front.png',
   },
   {
     id: 5,
@@ -964,7 +966,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This mask brightens the skin, reduces the appearance of dark spots, and revitalizes tired-looking skin.',
-    img: '',
+    img: '/assets/Assets/Aloe/close-up-woman-wearing-face-mask.jpg',
   },
   {
     id: 6,
@@ -983,7 +985,7 @@ export const Aloeverarecipesskin = [
     ],
     benefits:
       'This mask refreshes and maintains the skin’s natural balance, leaving it soft, smooth, and glowing.',
-    img: '',
+    img: '/assets/Assets/Aloe/Aloe vera  front.png',
   },
 ];
 
@@ -1124,7 +1126,8 @@ export const ShikaahairCareRecipes = [
     ],
     benefits:
       'Removes excess oil, cleanses the scalp, and adds volume and freshness to oily hair.',
-    img: '',
+    img: '/assets/Assets/shikakipowder/Shikakai  Powder  Frontn.png',
+
   },
   {
     id: 2,
@@ -1143,7 +1146,7 @@ export const ShikaahairCareRecipes = [
     ],
     benefits:
       'Deeply conditions and nourishes dry, frizzy hair, making it softer and more manageable.',
-    img: '',
+      img: '/assets/Assets/shikakipowder/shikaaipowder.jpg',
   },
   {
     id: 3,
@@ -1162,7 +1165,7 @@ export const ShikaahairCareRecipes = [
     ],
     benefits:
       'Reduces dandruff, soothes the scalp, and helps maintain a healthy scalp environment.',
-    img: '',
+      img: '/assets/Assets/shikakipowder/Shikakai  Powder  Frontn.png',
   },
   {
     id: 4,
@@ -1182,7 +1185,7 @@ export const ShikaahairCareRecipes = [
     ],
     benefits:
       'Strengthens hair from the roots, promotes hair growth, and reduces hair fall.',
-    img: '',
+      img: '/assets/Assets/shikakipowder/shikaaipowder.jpg',
   },
   {
     id: 5,
@@ -1201,7 +1204,7 @@ export const ShikaahairCareRecipes = [
     ],
     benefits:
       'Repairs damaged hair, restores moisture, and brings back shine and vitality to dull hair.',
-    img: '',
+      img: '/assets/Assets/shikakipowder/Shikakai  Powder  Frontn.png',
   },
   {
     id: 6,
@@ -1220,7 +1223,7 @@ export const ShikaahairCareRecipes = [
     ],
     benefits:
       'Cleanses and nourishes the hair, maintaining shine and softness.',
-    img: '',
+      img: '/assets/Assets/shikakipowder/shikaaipowder.jpg',
   },
 ];
 

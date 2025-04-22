@@ -2,10 +2,10 @@
 export const RecipeCard = ({ recipe }) => (
     <div className="bg-white rounded-xl shadow p-4 w-full h-full">
       <img
-        src={recipe.image}
+        src={recipe.img}
         alt={recipe.title}
           loading="lazy"
-        className="rounded-md w-full h-48 object-cover"
+        className="rounded-md w-full h-80 object-cover"
       />
       <h2 className="text-xl font-semibold mt-2">{recipe.title}</h2>
 
