@@ -2,78 +2,9 @@ import React from 'react'
 import { FaArrowRight, FaCartPlus } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { products } from '../../Components/Data';
-// export const products = [
 
-
-//   {
-//     id: 1,
-//     link: '/products/aloevera-powder',
-//     img: '/assets/Assets/Aloe/Aloe vera  front.png',
-//     title: 'Pure Aloe Vera Powder  : Your Natural Solution for Skin and Hair Care',
-//     description: 'Refresh your skin and hair with our pure Aloe Vera Powder, known for its cooling and moisturizing benefits. Ideal for face masks and hair care!',
-//     updateInfo: ' Click here to Learn Our  Tips  ',
-//     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
-//     route: '/products/aloevera-powder',
-//     price: "$7",
-//     categories: ['Hair', 'Skin', 'Diet'],
-//   },
-
-//   {
-//     id: 2,
-//     link: '/products/amla-powder',
-//     img: '/assets/Assets/Amla/Amla Powderfront.png', title: 'Amla Powder: Natural Solution for Healthy Hair, Skin & Diet',
-//     description: 'Boost your skin and hair care with pure Amla Powder, rich in Vitamin C. Ideal for enhancing natural radiance and promoting healthy hair growth',
-//     updateInfo: 'Click here to Learn Our  Tips ',
-//     buyLink: 'https://revaais.com/products/organic-amla-powder-herbal-supplement-indian-gooseberry-or-emblica-officinalis-helps-detoxify-boost-immunity-hair-growth-long-hairs-promotes-eye-health-100-natural-non-gmo-100g?_pos=1&_sid=5edfdd030&_ss=r',
-//     route: '/products/amla-powder',
-//     price: "$7",
-//     categories: ['Hair', 'Skin', 'Diet'],
-//   },
-//   {
-//     id: 3,
-//     link: '/products/curry-leaf-powder',
-//     img: '/assets/Assets/curryleaf/Curry Front.png',
-//     title: 'Curry Leaf Powder   Strengthen Roots and Reduce Hair Loss Naturally',
-//     description: 'Boost your hair health with our natural Curry Leaf Powder. It helps reduce hair fall, promotes growth, and adds shine to your hair.',
-//     updateInfo: 'Click here to Learn Our  Tips ',
-//     buyLink: 'https://revaais.com/products/exotic-veda-curry-powder-organic-curry-powder?_pos=3&_sid=5edfdd030&_ss=r',
-//     route: '/products/curry-leaf-powder',
-//     price: "$7",
-//     categories: ['Hair', 'Skin', 'Diet'],
-//   },
-//   {
-//     id: 4,
-//     link: '/products/henna-powder',
-//     img: '/assets/Assets/hennapowder/Henna Powder .png',
-//     title: 'Pure Henna Powder   Nourish, Strengthen, and Color Your Hair Naturally',
-//     description: 'Enhance your hair’s health and color with our pure Henna Powder. It provides a natural tint, conditions hair, and promotes a healthy scalp',
-//     updateInfo: 'Click here to Learn Our  Tips ',
-//     buyLink: 'https://revaais.com/products/exotic-veda-organic-henna-powder-100-natural-hair-dye-from-rajasthan-india-lawsonia-inermis-non-gmo-deep-brown-100g?_pos=11&_sid=5edfdd030&_ss=r',
-//     route: '/products/henna-powder',
-//     price: "$7",
-//     categories: ['Hair',],
-//   },
-
-
-
-//   {
-//     id: 5,
-//     link: '/products/shikhakhai-powder',
-//     img: '/assets/Assets/shikakipowder/Shikakai  Powder  Frontn.png',
-//     title: 'Pure Shikakai Powder   Promote Hair Growth and Scalp Health Naturally',
-//     description: 'Shikakai Powder is a natural hair cleanser that strengthens roots, promotes growth, and adds shine while gently nourishing your scalp and hair',
-//     updateInfo: 'Click here to Learn Our  Tips ',
-//     buyLink: 'https://revaais.com/products/organic-shikakai-powder?_pos=10&_sid=5edfdd030&_ss=r',
-//     route: '/recipe-aloe-vera',
-//     price: "$7",
-//     categories: ['Hair'],
-//   },
-
-
-// ];
 const Haircare = () => {
-
-  return (
+  return(
     <div className="text-justify">
       <img src='https://www.exoticveda.com/static/media/HAIRE%20CARE%20BANNNER.f21ac899c65a3d5ff23b.png' alt="exotic veda, organic, revaais, natural" className="w-full mb-6" loading="lazy" />
 
@@ -131,36 +62,59 @@ const Haircare = () => {
         {products
   .filter((product) => product.categories && product.categories.includes('Hair'))
   .map((product) => (
-    <div key={product.id} className="bg-white shadow-lg rounded-lg overflow-hidden">
-      <Link to={product.link}>
-        <img src={product.img} alt={product.title} className="w-full h-64 object-cover" loading="lazy" />
-      </Link>
-      <div className="p-4">
-        <Link to={product.link}>
-          <h5 className="text-lg font-semibold mb-2">{product.title}</h5>
-        </Link>
-        <Link to={product.link}>
-          <p className="text-sm text-gray-600 mb-2">{product.description}</p>
-        </Link>
-        <p className="text-sm text-gray-500">
-          <Link to={product.link} className="inline-flex items-center">
-            {product.updateInfo} <FaArrowRight className="ml-2 text-blue-500" size={12} />
-          </Link>
-        </p>
-        <>{product.price}</>
-        <Link to={product.buyLink}>
-          <button className="mt-3 inline-flex items-center gap-2 justify-center bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-md w-full">
-            <FaCartPlus /> Buy Now
-          </button>
-        </Link>
-      </div>
-    </div>
-))}
+    <div key={product.id} className="bg-white rounded-xl shadow-md overflow-hidden transform transition hover:scale-105 hover:shadow-xl">
 
-        </div>
-      </div>
-    </div>
-  )
-}
+              <button className="absolute top-2 right-2 p-2 rounded-full bg-white shadow hover:text-red-500 z-10">
+         ❤️
+       </button>
+
+       {/* Badge */}
+       {product.badge && (
+         <span className="absolute top-2 left-2 bg-yellow-400 text-xs font-bold px-2 py-1 rounded z-10">
+           {product.badge}
+         </span>
+       )}<div className="relative">
+                   <img
+                     src={product.img}
+                     alt={product.title}
+                     loading="lazy"
+                     className="w-full h-80 object-cover hover:scale-105 transition-transform duration-300"
+                   />
+                   <div className="absolute inset-0 backdrop-blur-md bg-opacity-30 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
+                     <Link to={product.route} className="bg-white text-black px-4 py-2 rounded shadow hover:bg-green-600 hover:text-white transition">
+                       Quick View
+                     </Link>
+                   </div>
+                 </div>
+               <div className="p-4">
+                 <Link to={product.link}>
+                   <h5 className="text-lg font-bold text-gray-800 hover:text-green-600 transition duration-200">{product.title}</h5>
+                   <div className="flex items-center text-yellow-400 mb-2">
+           {Array.from({ length: 5 }, (_, i) => (
+             <span key={i}>{i < product.rating ? '★' : '☆'}</span>
+           ))}
+         </div>
+                   <p className="text-gray-600 text-sm mt-2">{product.description}</p>
+                 </Link>
+                 <p className="text-sm text-gray-500 mt-2">
+                   <Link to={product.link} className="flex items-center gap-1 hover:text-blue-600 transition">
+                     {product.updateInfo} <FaArrowRight size={12} />
+                   </Link>
+                 </p>
+                 <>{product.price}</>
+                 <Link to={product.buyLink}>
+                   <button className="mt-3 inline-flex items-center gap-2 justify-center  bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-md w-full">
+                     <FaCartPlus /> Buy Now</button>
+                 </Link>
+
+
+               </div>
+             </div>
+           ))}
+         </div>
+       </div>
+       </div>
+);
+};
 
 export default Haircare
