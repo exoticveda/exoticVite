@@ -5,7 +5,7 @@ import { products } from '../Data';
 
 
 const ProductCard = ({ product }) => (
-  <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 relative">
+  <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 relative hover:scale-105 hover:shadow-xl">
     {/* Wishlist Icon */}
     <button className="absolute top-2 right-2 p-2 rounded-full bg-white shadow hover:text-red-500 z-10">
       ❤️
