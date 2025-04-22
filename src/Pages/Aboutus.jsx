@@ -28,7 +28,7 @@ const Aboutus = () => {
         <h2 className="text-2xl font-semibold pt-4">The Birth of the Design</h2>
         <div className="w-full flex justify-center my-4">
           <video
-            src="https://www.exoticveda.com/static/media/WhatsApp%20Video%202024-08-07%20at%2016.07.54_c25b0265.82ad77e11994a81157ee.mp4" // <-- update your video src here
+            src="/assets/logo.mp4" // <-- update your video src here
             autoPlay
             loop
             muted
