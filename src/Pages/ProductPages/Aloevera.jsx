@@ -98,7 +98,7 @@ const Aloevera = () => {
       <div className="mt-10">
         <h2 className="text-xl font-semibold mb-4">Aloe Vera Powder Uses for Different Needs</h2>
 
-        <div className="flex flex-wrap gap-4 mb-6">
+        <div className="flex   gap-4 mb-6">
           {Object.entries(tabData).map(([key, { label }]) => (
             <button
               key={key}
