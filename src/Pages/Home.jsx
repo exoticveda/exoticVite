@@ -10,6 +10,7 @@ import TreatmentImageSection from '../Components/Reusable/TreatmentImageSection'
  import FeaturedCollection from '../Collections/FeaturedCollection';
 import Carousel from '../Components/Common/Carousel';
 import FAQ from '../Components/Common/FAQ';
+import PurchaseSteps from '../Components/Reusable/PurchaseSteps';
 
 const desktopImages = [
   'https://www.exoticveda.com/static/media/New%20Products%20.3a4f94879e1dbd652d0e.png',
@@ -28,8 +29,10 @@ const Home = () => {
       <Carousel/>
       <Categories />
       <FeaturedCollection />
+
       <WhyBeYoursSection />
       <TreatmentImageSection />
+      <PurchaseSteps/>
       <section
         className="py-16 px-4 sm:px-8 md:px-16 lg:px-24 text-center"
         data-aos="fade-up"
@@ -67,7 +70,7 @@ const Home = () => {
       </section>
       <Gallery />
       <FAQ/>
-     
+
     </div>
   )
 }
