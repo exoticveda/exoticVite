@@ -664,7 +664,7 @@ export const beetrootDietaryRecipes = [
       'Pour into a glass and enjoy a nutrient-packed start to your day.'
     ],
     benefits: 'Provides a natural energy boost, rich in vitamins and minerals.',
-    image: ""// Replace with the correct image path or import
+     img: ""// Replace with the correct image path or import
   },
   {
     id: 2,
@@ -680,7 +680,7 @@ export const beetrootDietaryRecipes = [
       'Drink as a quick detoxifying and refreshing beverage.'
     ],
     benefits: 'Acts as a detoxifying drink, supports heart health, and improves blood flow.',
-    image: '' // Replace with the correct image path or import
+     img: '' // Replace with the correct image path or import
   },
   {
     id: 3,
@@ -697,7 +697,7 @@ export const beetrootDietaryRecipes = [
       'Pour into a cup and enjoy as a nutritious, caffeine-free latte.'
     ],
     benefits: 'Provides a comforting drink that supports cardiovascular health and energy.',
-    image: ''// Replace with the correct image path or import
+     img: ''// Replace with the correct image path or import
   },
   {
     id: 4,
@@ -715,7 +715,7 @@ export const beetrootDietaryRecipes = [
       'Drizzle over your favorite salad and toss to coat.'
     ],
     benefits: 'Adds natural sweetness and a pop of color to salads while providing fiber and nutrients.',
-    image: ''// Replace with the correct image path or import
+     img: ''// Replace with the correct image path or import
   },
   {
     id: 5,
@@ -735,7 +735,7 @@ export const beetrootDietaryRecipes = [
       'Store in the refrigerator for a quick and healthy snack.'
     ],
     benefits: 'Increases nutritional value of snacks, offering natural energy and antioxidants.',
-    image: '' // Replace with the correct image path or import
+     img: '' // Replace with the correct image path or import
   },
   {
     id: 6,
@@ -754,9 +754,96 @@ export const beetrootDietaryRecipes = [
       'Serve warm for a nutritious and vibrant meal.'
     ],
     benefits: 'Adds nutrients like iron and folate to warm, comforting dishes.',
-    image: ' '// Replace with the correct image path or import
+     img: ' '// Replace with the correct image path or import
   }
 ];
+export const beetrootHairCareRecipes = [
+  {
+    id: 1,
+    title: 'Beetroot Hair Mask for Dandruff',
+    hairType: 'Anti-Dandruff',
+    ingredients: [
+      '2 teaspoons beetroot powder',
+      '1 tablespoon yogurt',
+      '1 teaspoon lemon juice'
+    ],
+    instructions: [
+      'Mix beetroot powder with yogurt and lemon juice to form a paste.',
+      'Apply evenly to the scalp and hair roots.',
+      'Leave for 30 minutes, then rinse with lukewarm water.'
+    ],
+    benefits: 'Helps cleanse the scalp, reduce dandruff, and refresh hair roots.',
+     img: '' // Replace with the correct image path
+  },
+  {
+    id: 2,
+    title: 'Beetroot & Coconut Oil Scalp Treatment',
+    hairType: 'Dry Scalp',
+    ingredients: [
+      '1 teaspoon beetroot powder',
+      '2 tablespoons coconut oil'
+    ],
+    instructions: [
+      'Warm the coconut oil and mix in beetroot powder.',
+      'Massage the mixture into your scalp for 5-10 minutes.',
+      'Leave overnight or for at least 1 hour, then wash as usual.'
+    ],
+    benefits: 'Deeply nourishes the scalp, promotes blood circulation, and soothes dryness.',
+     img: '' // Replace with the correct image path
+  },
+  {
+    id: 3,
+    title: 'Beetroot Hair Pack for Hair Fall',
+    hairType: 'Hair Fall Control',
+    ingredients: [
+      '2 teaspoons beetroot powder',
+      '1 egg yolk or 2 tablespoons curd',
+      '1 tablespoon olive oil'
+    ],
+    instructions: [
+      'Mix all ingredients into a smooth paste.',
+      'Apply from scalp to tips and cover with a shower cap.',
+      'Leave for 45 minutes, then rinse with a mild shampoo.'
+    ],
+    benefits: 'Strengthens roots, reduces hair fall, and improves hair texture.',
+     img: '' // Replace with the correct image path
+  },
+  {
+    id: 4,
+    title: 'Beetroot Shine Booster Rinse',
+    hairType: 'Dull Hair',
+    ingredients: [
+      '1 teaspoon beetroot powder',
+      '2 cups water',
+      '1 tablespoon apple cider vinegar'
+    ],
+    instructions: [
+      'Boil water and add beetroot powder.',
+      'Let it cool, then mix in apple cider vinegar.',
+      'Use as a final rinse after shampooing to enhance shine.'
+    ],
+    benefits: 'Adds natural shine, balances pH, and boosts hair color tone.',
+     img: '' // Replace with the correct image path
+  },
+  {
+    id: 5,
+    title: 'Beetroot Deep Conditioning Mask',
+    hairType: 'Frizzy / Damaged Hair',
+    ingredients: [
+      '2 teaspoons beetroot powder',
+      '2 tablespoons aloe vera gel',
+      '1 tablespoon honey'
+    ],
+    instructions: [
+      'Mix all ingredients until smooth.',
+      'Apply from mid-lengths to ends of damp hair.',
+      'Leave for 30 minutes and rinse thoroughly.'
+    ],
+    benefits: 'Deeply hydrates, smoothens hair, and repairs split ends.',
+     img: '' // Replace with the correct image path
+  }
+];
+
 export const multanirecipes = [
   {
     id: 1,
@@ -1002,7 +1089,7 @@ export const beetrootSkinCareRecipes = [
       'Rinse off with lukewarm water.'
     ],
     benefits: 'Hydrates and nourishes dry skin, adding a natural glow.',
-    image: '/assets/Assets/beetroot/use1beet.jpg'// Replace with the correct image path or import
+     img: '/assets/Assets/beetroot/use1beet.jpg'// Replace with the correct image path or import
   },
   {
     id: 2,
@@ -1020,7 +1107,7 @@ export const beetrootSkinCareRecipes = [
       'Rinse off with cool water.'
     ],
     benefits: 'Controls excess oil, detoxifies the skin, and adds a natural glow.',
-    image: '' // Replace with the correct image path or import
+     img: '' // Replace with the correct image path or import
   },
   {
     id: 3,
@@ -1037,7 +1124,7 @@ export const beetrootSkinCareRecipes = [
       'Rinse off with cool water.'
     ],
     benefits: 'Soothes irritation, reduces redness, and provides gentle nourishment.',
-    image: '' // Replace with the correct image path or import
+     img: '' // Replace with the correct image path or import
   },
   {
     id: 4,
@@ -1054,7 +1141,7 @@ export const beetrootSkinCareRecipes = [
       'Rinse off with lukewarm water while massaging in circular motions.'
     ],
     benefits: 'Balances the skin by hydrating dry areas and controlling oil in the T-zone.',
-    image: ''// Replace with the correct image path or import
+     img: ''// Replace with the correct image path or import
   },
   {
     id: 5,
@@ -1070,7 +1157,7 @@ export const beetrootSkinCareRecipes = [
       'Rinse with cool water.'
     ],
     benefits: 'Tightens the skin, reduces dullness, and promotes a youthful glow.',
-    image: '' // Replace with the correct image path or import
+     img: '' // Replace with the correct image path or import
   },
   {
     id: 6,
@@ -1086,7 +1173,7 @@ export const beetrootSkinCareRecipes = [
       'Rinse with lukewarm water.'
     ],
     benefits: 'Maintains overall skin health, hydrates, and adds a natural radiance.',
-    image: '' // Replace with the correct image path or import
+     img: '' // Replace with the correct image path or import
   }
 ];
 
@@ -1108,7 +1195,7 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.'
     ],
     benefits: 'Deeply conditions and nourishes dry hair, reducing frizz and adding softness and shine.',
-    image: "assets.henna" // Replace with the correct image path or import
+     img: "assets.henna" // Replace with the correct image path or import
   },
   {
     id: 2,
@@ -1126,7 +1213,7 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and follow with a mild shampoo.'
     ],
     benefits: 'Controls oil production, cleanses the scalp, and adds volume to oily hair.',
-    image: ' assets.henna'// Replace with the correct image path or import
+     img: ' assets.henna'// Replace with the correct image path or import
   },
   {
     id: 3,
@@ -1144,7 +1231,7 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.'
     ],
     benefits: 'Reduces dandruff, soothes itchy scalp, and promotes a healthier scalp environment.',
-    image: "assets.henna"// Replace with the correct image path or import
+     img: "assets.henna"// Replace with the correct image path or import
   },
   {
     id: 4,
@@ -1162,7 +1249,7 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.'
     ],
     benefits: 'Strengthens hair roots, promotes hair growth, and reduces hair fall.',
-    image: " assets.henna"// Replace with the correct image path or import
+     img: " assets.henna"// Replace with the correct image path or import
   },
   {
     id: 5,
@@ -1180,7 +1267,7 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.'
     ],
     benefits: 'Repairs damage, restores moisture, and brings back shine and vitality to dull hair.',
-    image: "assets.henna "// Replace with the correct image path or import
+     img: "assets.henna "// Replace with the correct image path or import
   },
   {
     id: 6,
@@ -1198,9 +1285,12 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.'
     ],
     benefits: 'Maintains overall hair health, adds shine, and keeps hair soft and manageable.',
-    image: "assets.henna" // Replace with the correct image path or import
+     img: "assets.henna" // Replace with the correct image path or import
   }
 ];
+
+
+
 
 export const Aloeverarecipesskin = [
   {
@@ -1439,6 +1529,121 @@ export const AloeverahairCareRecipes = [
     img: '',
   },
 ];
+
+export const AloeveraDietaryRecipes = [
+  {
+    id: 1,
+    title: 'Aloe Vera and Lemon Detox Drink',
+    dietType: 'Morning Detox',
+    ingredients: [
+      '1 teaspoon aloe vera powder',
+      '1 tablespoon lemon juice',
+      '1 cup warm water',
+    ],
+    instructions: [
+      'Mix aloe vera powder and lemon juice in warm water.',
+      'Stir well until dissolved.',
+      'Drink it on an empty stomach every morning for best results.',
+    ],
+    benefits:
+      'Helps detox the body, improves digestion, and boosts metabolism.',
+    img: '',
+  },
+  {
+    id: 2,
+    title: 'Aloe Vera Smoothie for Digestion',
+    dietType: 'Digestive Health',
+    ingredients: [
+      '1 teaspoon aloe vera powder',
+      '1 banana',
+      '1/2 cup yogurt',
+      '1/2 cup water or coconut water',
+    ],
+    instructions: [
+      'Blend banana, yogurt, water/coconut water, and aloe vera powder.',
+      'Blend until smooth and creamy.',
+      'Consume fresh as a digestive health drink.',
+    ],
+    benefits:
+      'Aids digestion, soothes the stomach, and supports gut health.',
+    img: '',
+  },
+  {
+    id: 3,
+    title: 'Aloe Vera and Mint Juice',
+    dietType: 'Cooling Summer Drink',
+    ingredients: [
+      '1 teaspoon aloe vera powder',
+      'Handful of fresh mint leaves',
+      '1 tablespoon honey',
+      '1 cup chilled water',
+    ],
+    instructions: [
+      'Blend mint leaves with chilled water. Strain the juice.',
+      'Add aloe vera powder and honey, stir well.',
+      'Serve chilled with ice cubes if desired.',
+    ],
+    benefits:
+      'Keeps the body cool, refreshes during summer, and supports hydration.',
+    img: '',
+  },
+  {
+    id: 4,
+    title: 'Aloe Vera and Turmeric Immunity Tonic',
+    dietType: 'Immunity Booster',
+    ingredients: [
+      '1 teaspoon aloe vera powder',
+      '1/4 teaspoon turmeric',
+      '1 tablespoon honey',
+      '1 cup lukewarm water',
+    ],
+    instructions: [
+      'Mix aloe vera powder, turmeric, and honey in lukewarm water.',
+      'Stir until well combined.',
+      'Drink once daily for immunity support.',
+    ],
+    benefits:
+      'Boosts immunity, reduces inflammation, and supports overall health.',
+    img: '',
+  },
+  {
+    id: 5,
+    title: 'Aloe Vera and Amla Health Shot',
+    dietType: 'Hair & Skin Support',
+    ingredients: [
+      '1 teaspoon aloe vera powder',
+      '1 tablespoon amla juice or powder',
+      '1/2 cup water',
+    ],
+    instructions: [
+      'Mix aloe vera powder and amla juice/powder in water.',
+      'Stir well and drink on an empty stomach.',
+      'Consume 3-4 times a week for hair and skin health.',
+    ],
+    benefits:
+      'Rich in antioxidants, promotes hair and skin health, and supports liver function.',
+    img: '',
+  },
+  {
+    id: 6,
+    title: 'Aloe Vera Energy Drink',
+    dietType: 'Natural Energy Booster',
+    ingredients: [
+      '1 teaspoon aloe vera powder',
+      '1 tablespoon jaggery or honey',
+      '1 cup coconut water or plain water',
+    ],
+    instructions: [
+      'Dissolve jaggery/honey in water or coconut water.',
+      'Add aloe vera powder and mix well.',
+      'Consume before or after workout sessions.',
+    ],
+    benefits:
+      'Naturally boosts energy, improves hydration, and replenishes lost minerals.',
+    img: '',
+  },
+];
+
 
 export const ShikaahairCareRecipes = [
   {
