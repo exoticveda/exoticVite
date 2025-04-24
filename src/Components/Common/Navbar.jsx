@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { FiMenu, FiX, FiShoppingBag, FiInfo, FiPhone, FiGrid, FiChevronDown, FiChevronUp, FiExternalLink } from 'react-icons/fi';
 
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -26,73 +27,75 @@ const Navbar = () => {
               />
             </Link>
 
-            {/* Mobile Menu Button */}
+            {/* Mobile menu icon */}
             <button
               onClick={() => setMenuOpen(!menuOpen)}
-              className="md:hidden text-gray-700 hover:text-black focus:outline-none"
+              className="lg:hidden text-gray-700 hover:text-black focus:outline-none"
               aria-label="Toggle Menu"
             >
-              <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                {menuOpen ? (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-                ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-                )}
-              </svg>
+              {menuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
             </button>
 
-            {/* Navigation Links */}
+            {/* Navigation */}
             <div
               className={`${
                 menuOpen ? 'block' : 'hidden'
-              } md:flex md:items-center md:space-x-6 md:static absolute top-20 left-0 w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none z-40 px-4 md:px-0 py-4 md:py-0`}
+              } lg:flex lg:items-center lg:space-x-6 absolute lg:static top-20 left-0 w-full lg:w-auto bg-white shadow-md lg:shadow-none z-40 px-4 lg:px-0 py-4 lg:py-0`}
             >
-              <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 text-gray-700 font-medium w-full md:w-auto">
+              <ul className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-6 text-gray-700 font-medium w-full lg:w-auto">
+
                 <li>
-                  <Link to="/products" className="hover:text-teal-600 block" onClick={handleLinkClick}>
-                    Products
+                  <Link to="/products" className="flex items-center gap-2 hover:text-teal-600" onClick={handleLinkClick}>
+                    <FiShoppingBag /> Products
                   </Link>
                 </li>
+
                 <li>
-                  <Link to="/aboutus" className="hover:text-teal-600 block" onClick={handleLinkClick}>
-                    About Us
+                  <Link to="/aboutus" className="flex items-center gap-2 hover:text-teal-600" onClick={handleLinkClick}>
+                    <FiInfo /> About Us
                   </Link>
                 </li>
+
                 <li>
-                  <Link to="/Contact" className="hover:text-teal-600 block" onClick={handleLinkClick}>
-                    Contact Us
+                  <Link to="/Contact" className="flex items-center gap-2 hover:text-teal-600" onClick={handleLinkClick}>
+                    <FiPhone /> Contact Us
                   </Link>
                 </li>
 
                 {/* Dropdown */}
                 <li
-                  className="relative group"
-                  onMouseEnter={() => setDropdownOpen(true)}
-                  onMouseLeave={() => setDropdownOpen(false)}
-                >
-                  <span className="cursor-pointer hover:text-teal-600 block">Shop by Categories</span>
-                  <ul
-                    className={`${
-                      dropdownOpen ? 'block' : 'hidden'
-                    } absolute left-0 mt-2 w-44 bg-white rounded-md shadow-md z-50`}
-                  >
-                    <li><Link to="/category/haircare" onClick={handleLinkClick} className="block px-4 py-2 hover:bg-gray-100">Hair Care</Link></li>
-                    <li><Link to="/Skincaree-category" onClick={handleLinkClick} className="block px-4 py-2 hover:bg-gray-100">Skin Care</Link></li>
-                    <li><Link to="/Dietry-Use-Category" onClick={handleLinkClick} className="block px-4 py-2 hover:bg-gray-100">Dietary</Link></li>
-                    <li><Link to="/wellness" onClick={handleLinkClick} className="block px-4 py-2 hover:bg-gray-100">Wellness</Link></li>
-                    <li><Link to="/Diya-Batti" onClick={handleLinkClick} className="block px-4 py-2 hover:bg-gray-100">Puja Essentials</Link></li>
-                  </ul>
-                </li>
+  className="relative group"
+  onMouseEnter={() => setDropdownOpen(true)}
+  onMouseLeave={() => setDropdownOpen(false)}
+>
+  <div className="cursor-pointer flex items-center gap-2  hover:text-teal-600">
+   < span className='flex items-center gap-2  justify-center'> <FiGrid />
+    Shop by Categories
+    {dropdownOpen ? <FiChevronUp size={16} /> : <FiChevronDown size={16} />}</span>
+  </div>
+  <ul
+    className={`${
+      dropdownOpen ? 'block' : 'hidden'
+    } absolute left-0  w-44 bg-white rounded-md shadow-md z-50`}
+  >
+    <li><Link to="/category/haircare" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Hair Care</Link></li>
+    <li><Link to="/Skincaree-category" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Skin Care</Link></li>
+    <li><Link to="/Dietry-Use-Category" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Dietary</Link></li>
+    <li><Link to="/wellness" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Wellness</Link></li>
+    <li><Link to="/Diya-Batti" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Puja Essentials</Link></li>
+  </ul>
+</li>
+
 
                 <li>
                   <a
                     href="https://www.revaais.shop"
-                    className="hover:text-teal-600 block"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex items-center gap-2 hover:text-teal-600"
                     onClick={handleLinkClick}
                   >
-                    Our Shop
+                    <FiExternalLink /> Our Shop
                   </a>
                 </li>
               </ul>
@@ -101,7 +104,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* Spacer to offset fixed nav */}
+      {/* Spacer */}
       <div className="h-20"></div>
     </>
   );
