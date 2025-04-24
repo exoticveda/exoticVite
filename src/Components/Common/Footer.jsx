@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
         ))}
 
-        <div className="md:col-span-1">
+        <div className="hidden lg:block md:col-span-1 ">
           <h4 className="font-semibold mb-4">Exclusive Benefits</h4>
           <p className="mb-4 text-sm">
             Join us for deals, news, and events.
@@ -93,6 +93,28 @@ const Footer = () => {
         </div>
       </div>
 
+      <div className=" lg:hidden md:col-span-1 ">
+          <h4 className="font-semibold mb-4">Exclusive Benefits</h4>
+          <p className="mb-4 text-sm">
+            Join us for deals, news, and events.
+          </p>
+          <div className="flex items-center space-x-2 mb-4">
+            <input
+              type="email"
+              placeholder="Enter email here"
+              className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600"
+            />
+            <button className="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800">
+              Submit
+            </button>
+          </div>
+          <div className="flex space-x-4 mt-4 text-xl">
+            <FaFacebookF className="hover:text-gray-600 cursor-pointer" />
+            <FaTwitter className="hover:text-gray-600 cursor-pointer" />
+            <FaPinterestP className="hover:text-gray-600 cursor-pointer" />
+            <FaInstagram className="hover:text-gray-600 cursor-pointer" />
+          </div>
+        </div>
       <div className="flex justify-between items-center flex-wrap gap-4 text-sm border-t pt-4 border-gray-300">
         <div className="flex items-center gap-3">
           {socialLinks.map((link, i) => (
