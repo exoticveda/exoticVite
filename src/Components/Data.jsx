@@ -1,3 +1,5 @@
+//Products
+
 export const products = [
   {
     id: 1,
@@ -213,6 +215,7 @@ export const products = [
 
 
 ];
+//Descriptiion Data
 
 export const productData = {
   "cottonWick": {
@@ -350,7 +353,8 @@ export const productData = {
   },
   "lemongrasspowder": {
     name: "Organic Lemongrass Powder | Dried Lemon Powder | Vitamin C Rich | Perfect For Cooking | Dandelion Tea Enhancer | Lemon Juice Substitute | Real Lemon Zest | Micro Ingredients | 100gm",
-    price: '$',
+    price: '$4.99',
+    link: 'https://revaais.com/products/exotic-veda-lemongrass-powder?_pos=1&_psq=lemongrasss&_ss=e&_v=1.0',
     description: [
       "Organic Lemongrass Powder: Delight In The Gluten Free, Organic Lemongrass Powder For Cooking. Ideal For Adding Flavor To Thai Dishes, Soups, And Marinades. ",
       "Natural Detoxifier: Helps cleanse the body by removing toxins, promoting overall health and vitality. ",
@@ -528,13 +532,70 @@ export const productData = {
   },
 
 };
-export const beetrootProductDetails = {
-  title: "Organic Beetroot Powder | 100% Natural & Non-GMO, Rich in Antioxidants, Boosts Immunity, Vegan-Friendly (100g)",
-  bannerImg: '',
-  buyNowLink: 'https://revaais.com/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g?_pos=1&_sid=058eeb733&_ss=r',
-  images: ['', '',],
+export const featuredProducts = [
 
-};
+  {
+    id: 1,
+    name: "Beetroot Powder: Delicious Superfood for Glowing Skin & Diet Support",
+    price: "$6.99",
+    buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
+    route: '/products/beetroot-powder',
+    price: "$6.99",
+    updateInfo: 'Click here to Learn Our  Tips ',
+    rating: 5,
+    badge: "5% OFF",
+    img: "/assets/Assets/beetroot/beetroot  powder  front.png",
+  },
+  {
+    id: 2,
+    name: "Pure Sandalwood Powder  Refresh,  Nourish Your Skin Naturally",
+    updateInfo: ' Click here to Learn Our  Tips  ',
+    buyLink: 'https://revaais.com/products/exotic-veda-sandalwood-powder?_pos=6&_sid=5edfdd030&_ss=r',
+    route: '/products/sandalwood-powder',
+    price: "$7.90",
+    rating: 5,
+    badge: "5% OFF",
+    img: "/assets/Assets/sabdalwood/sandalwood Fornt.png ",
+  },
+  {
+    id: 3,
+    name: "Amla Powder: Natural Solution for Healthy Hair, Skin & Diet",
+    updateInfo: 'Click here to Learn Our  Tips ',
+    buyLink: 'https://revaais.com/products/organic-amla-powder-herbal-supplement-indian-gooseberry-or-emblica-officinalis-helps-detoxify-boost-immunity-hair-growth-long-hairs-promotes-eye-health-100-natural-non-gmo-100g?_pos=1&_sid=5edfdd030&_ss=r',
+    route: '/products/amla-powder',
+    price: "$7.99",
+    rating: 4,
+    badge: "Best Seller",
+    img: '/assets/Assets/Amla/Amla Powderfront.png'
+  },
+  {
+    id: 4,
+    name: 'Pure Aloe Vera Powder  : Your Natural Solution for Skin and Hair Care',
+    updateInfo: ' Click here to Learn Our  Tips  ',
+    buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
+    route: '/products/aloevera-powder',
+    price: "$7",
+    rating: 5,
+    badge: "Best Seller",
+    img: "/assets/Assets/Aloe/Aloe vera  front.png",
+    buylink: 'https://revaais.com/products/pure-aloe-vera-powder'
+  },
+  {
+    id: 5,
+    name: "Pure Shikakai Powder Promote Hair Growth and Scalp Health Naturally",
+    img: "/assets/Assets/shikakipowder/Shikakai  Powder  Frontn.png",
+    updateInfo: "Click here to Learn Our Tips",
+    route: "/products/shikhakhai-powder",
+    price: "$7",
+    rating: 5,
+    badge: "Best Seller",
+    buyLink:
+      "https://revaais.com/products/organic-shikakai-powder?_pos=10&_sid=5edfdd030&_ss=r",
+  },
+  ,
+];
+
+//Sandalwood Powder
 export const sandalwoodrecipes = [
   {
     id: 1,
@@ -645,7 +706,7 @@ export const sandalwoodrecipes = [
     img: "/assets/Assets/sabdalwood/san.jpg",
   },
 ];
-
+//Beetroot Powder
 export const beetrootDietaryRecipes = [
   {
     id: 1,
@@ -664,7 +725,7 @@ export const beetrootDietaryRecipes = [
       'Pour into a glass and enjoy a nutrient-packed start to your day.'
     ],
     benefits: 'Provides a natural energy boost, rich in vitamins and minerals.',
-     img: ""// Replace with the correct image path or import
+    img: ""// Replace with the correct image path or import
   },
   {
     id: 2,
@@ -680,7 +741,7 @@ export const beetrootDietaryRecipes = [
       'Drink as a quick detoxifying and refreshing beverage.'
     ],
     benefits: 'Acts as a detoxifying drink, supports heart health, and improves blood flow.',
-     img: '' // Replace with the correct image path or import
+    img: '' // Replace with the correct image path or import
   },
   {
     id: 3,
@@ -697,7 +758,7 @@ export const beetrootDietaryRecipes = [
       'Pour into a cup and enjoy as a nutritious, caffeine-free latte.'
     ],
     benefits: 'Provides a comforting drink that supports cardiovascular health and energy.',
-     img: ''// Replace with the correct image path or import
+    img: ''// Replace with the correct image path or import
   },
   {
     id: 4,
@@ -715,7 +776,7 @@ export const beetrootDietaryRecipes = [
       'Drizzle over your favorite salad and toss to coat.'
     ],
     benefits: 'Adds natural sweetness and a pop of color to salads while providing fiber and nutrients.',
-     img: ''// Replace with the correct image path or import
+    img: ''// Replace with the correct image path or import
   },
   {
     id: 5,
@@ -735,7 +796,7 @@ export const beetrootDietaryRecipes = [
       'Store in the refrigerator for a quick and healthy snack.'
     ],
     benefits: 'Increases nutritional value of snacks, offering natural energy and antioxidants.',
-     img: '' // Replace with the correct image path or import
+    img: '' // Replace with the correct image path or import
   },
   {
     id: 6,
@@ -754,7 +815,7 @@ export const beetrootDietaryRecipes = [
       'Serve warm for a nutritious and vibrant meal.'
     ],
     benefits: 'Adds nutrients like iron and folate to warm, comforting dishes.',
-     img: ' '// Replace with the correct image path or import
+    img: ' '// Replace with the correct image path or import
   }
 ];
 export const beetrootHairCareRecipes = [
@@ -773,7 +834,7 @@ export const beetrootHairCareRecipes = [
       'Leave for 30 minutes, then rinse with lukewarm water.'
     ],
     benefits: 'Helps cleanse the scalp, reduce dandruff, and refresh hair roots.',
-     img: '' // Replace with the correct image path
+    img: '' // Replace with the correct image path
   },
   {
     id: 2,
@@ -789,7 +850,7 @@ export const beetrootHairCareRecipes = [
       'Leave overnight or for at least 1 hour, then wash as usual.'
     ],
     benefits: 'Deeply nourishes the scalp, promotes blood circulation, and soothes dryness.',
-     img: '' // Replace with the correct image path
+    img: '' // Replace with the correct image path
   },
   {
     id: 3,
@@ -806,7 +867,7 @@ export const beetrootHairCareRecipes = [
       'Leave for 45 minutes, then rinse with a mild shampoo.'
     ],
     benefits: 'Strengthens roots, reduces hair fall, and improves hair texture.',
-     img: '' // Replace with the correct image path
+    img: '' // Replace with the correct image path
   },
   {
     id: 4,
@@ -823,7 +884,7 @@ export const beetrootHairCareRecipes = [
       'Use as a final rinse after shampooing to enhance shine.'
     ],
     benefits: 'Adds natural shine, balances pH, and boosts hair color tone.',
-     img: '' // Replace with the correct image path
+    img: '' // Replace with the correct image path
   },
   {
     id: 5,
@@ -840,9 +901,114 @@ export const beetrootHairCareRecipes = [
       'Leave for 30 minutes and rinse thoroughly.'
     ],
     benefits: 'Deeply hydrates, smoothens hair, and repairs split ends.',
-     img: '' // Replace with the correct image path
+    img: '' // Replace with the correct image path
   }
 ];
+
+export const beetrootSkinCareRecipes = [
+  {
+    id: 1,
+    title: 'Beetroot and Honey Mask',
+    skinType: 'Dry Skin',
+    ingredients: [
+      '1 teaspoon beetroot powder',
+      '1 tablespoon honey'
+    ],
+    instructions: [
+      'Mix beetroot powder with honey to form a smooth paste.',
+      'Apply the mixture evenly to your face.',
+      'Leave it on for 15-20 minutes.',
+      'Rinse off with lukewarm water.'
+    ],
+    benefits: 'Hydrates and nourishes dry skin, adding a natural glow.',
+    img: '/assets/Assets/beetroot/use1beet.jpg'// Replace with the correct image path or import
+  },
+  {
+    id: 2,
+    title: 'Beetroot and Multani Mitti Mask',
+    skinType: 'Oily Skin',
+    ingredients: [
+      '1 teaspoon beetroot powder',
+      '1 tablespoon Multani Mitti (Fuller\'s Earth)',
+      'Rose water to make a paste'
+    ],
+    instructions: [
+      'Mix beetroot powder with Multani Mitti and enough rose water to form a smooth paste.',
+      'Apply the paste to your face, focusing on oily areas.',
+      'Leave it on for 15-20 minutes.',
+      'Rinse off with cool water.'
+    ],
+    benefits: 'Controls excess oil, detoxifies the skin, and adds a natural glow.',
+    img: '' // Replace with the correct image path or import
+  },
+  {
+    id: 3,
+    title: 'Beetroot and Aloe Vera Gel Mask',
+    skinType: 'Sensitive Skin',
+    ingredients: [
+      '1 teaspoon beetroot powder',
+      '2 tablespoons aloe vera gel'
+    ],
+    instructions: [
+      'Mix beetroot powder with aloe vera gel to form a smooth mixture.',
+      'Apply gently to your face.',
+      'Leave it on for 15-20 minutes.',
+      'Rinse off with cool water.'
+    ],
+    benefits: 'Soothes irritation, reduces redness, and provides gentle nourishment.',
+    img: '' // Replace with the correct image path or import
+  },
+  {
+    id: 4,
+    title: 'Beetroot and Oatmeal Mask',
+    skinType: 'Combination Skin',
+    ingredients: [
+      '1 teaspoon beetroot powder',
+      '1 tablespoon finely ground oatmeal',
+      'Rose water to make a paste'
+    ],
+    instructions: [
+      'Mix beetroot powder with oatmeal and enough rose water to form a paste.',
+      'Apply the mixture to your face and let it sit for 15-20 minutes.',
+      'Rinse off with lukewarm water while massaging in circular motions.'
+    ],
+    benefits: 'Balances the skin by hydrating dry areas and controlling oil in the T-zone.',
+    img: ''// Replace with the correct image path or import
+  },
+  {
+    id: 5,
+    title: 'Beetroot and Egg White Mask',
+    skinType: 'Dull and Aging Skin',
+    ingredients: [
+      '1 teaspoon beetroot powder',
+      '1 egg white'
+    ],
+    instructions: [
+      'Mix beetroot powder with the egg white.',
+      'Apply to your face and let it sit for 15 minutes until it dries.',
+      'Rinse with cool water.'
+    ],
+    benefits: 'Tightens the skin, reduces dullness, and promotes a youthful glow.',
+    img: '' // Replace with the correct image path or import
+  },
+  {
+    id: 6,
+    title: 'Beetroot and Yogurt Mask',
+    skinType: 'Normal Skin',
+    ingredients: [
+      '1 teaspoon beetroot powder',
+      '2 tablespoons plain yogurt'
+    ],
+    instructions: [
+      'Mix beetroot powder with yogurt to form a smooth paste.',
+      'Apply the mixture to your face and leave it on for 15-20 minutes.',
+      'Rinse with lukewarm water.'
+    ],
+    benefits: 'Maintains overall skin health, hydrates, and adds a natural radiance.',
+    img: '' // Replace with the correct image path or import
+  }
+];
+//Mulatni Mitti Powder
 
 export const multanirecipes = [
   {
@@ -1073,110 +1239,8 @@ export const multanihairCareRecipes = [
   },
 ];
 
-export const beetrootSkinCareRecipes = [
-  {
-    id: 1,
-    title: 'Beetroot and Honey Mask',
-    skinType: 'Dry Skin',
-    ingredients: [
-      '1 teaspoon beetroot powder',
-      '1 tablespoon honey'
-    ],
-    instructions: [
-      'Mix beetroot powder with honey to form a smooth paste.',
-      'Apply the mixture evenly to your face.',
-      'Leave it on for 15-20 minutes.',
-      'Rinse off with lukewarm water.'
-    ],
-    benefits: 'Hydrates and nourishes dry skin, adding a natural glow.',
-     img: '/assets/Assets/beetroot/use1beet.jpg'// Replace with the correct image path or import
-  },
-  {
-    id: 2,
-    title: 'Beetroot and Multani Mitti Mask',
-    skinType: 'Oily Skin',
-    ingredients: [
-      '1 teaspoon beetroot powder',
-      '1 tablespoon Multani Mitti (Fuller\'s Earth)',
-      'Rose water to make a paste'
-    ],
-    instructions: [
-      'Mix beetroot powder with Multani Mitti and enough rose water to form a smooth paste.',
-      'Apply the paste to your face, focusing on oily areas.',
-      'Leave it on for 15-20 minutes.',
-      'Rinse off with cool water.'
-    ],
-    benefits: 'Controls excess oil, detoxifies the skin, and adds a natural glow.',
-     img: '' // Replace with the correct image path or import
-  },
-  {
-    id: 3,
-    title: 'Beetroot and Aloe Vera Gel Mask',
-    skinType: 'Sensitive Skin',
-    ingredients: [
-      '1 teaspoon beetroot powder',
-      '2 tablespoons aloe vera gel'
-    ],
-    instructions: [
-      'Mix beetroot powder with aloe vera gel to form a smooth mixture.',
-      'Apply gently to your face.',
-      'Leave it on for 15-20 minutes.',
-      'Rinse off with cool water.'
-    ],
-    benefits: 'Soothes irritation, reduces redness, and provides gentle nourishment.',
-     img: '' // Replace with the correct image path or import
-  },
-  {
-    id: 4,
-    title: 'Beetroot and Oatmeal Mask',
-    skinType: 'Combination Skin',
-    ingredients: [
-      '1 teaspoon beetroot powder',
-      '1 tablespoon finely ground oatmeal',
-      'Rose water to make a paste'
-    ],
-    instructions: [
-      'Mix beetroot powder with oatmeal and enough rose water to form a paste.',
-      'Apply the mixture to your face and let it sit for 15-20 minutes.',
-      'Rinse off with lukewarm water while massaging in circular motions.'
-    ],
-    benefits: 'Balances the skin by hydrating dry areas and controlling oil in the T-zone.',
-     img: ''// Replace with the correct image path or import
-  },
-  {
-    id: 5,
-    title: 'Beetroot and Egg White Mask',
-    skinType: 'Dull and Aging Skin',
-    ingredients: [
-      '1 teaspoon beetroot powder',
-      '1 egg white'
-    ],
-    instructions: [
-      'Mix beetroot powder with the egg white.',
-      'Apply to your face and let it sit for 15 minutes until it dries.',
-      'Rinse with cool water.'
-    ],
-    benefits: 'Tightens the skin, reduces dullness, and promotes a youthful glow.',
-     img: '' // Replace with the correct image path or import
-  },
-  {
-    id: 6,
-    title: 'Beetroot and Yogurt Mask',
-    skinType: 'Normal Skin',
-    ingredients: [
-      '1 teaspoon beetroot powder',
-      '2 tablespoons plain yogurt'
-    ],
-    instructions: [
-      'Mix beetroot powder with yogurt to form a smooth paste.',
-      'Apply the mixture to your face and leave it on for 15-20 minutes.',
-      'Rinse with lukewarm water.'
-    ],
-    benefits: 'Maintains overall skin health, hydrates, and adds a natural radiance.',
-     img: '' // Replace with the correct image path or import
-  }
-];
 
+//Henna Powdder
 export const hennahairCareRecipes = [
   {
     id: 1,
@@ -1195,7 +1259,7 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.'
     ],
     benefits: 'Deeply conditions and nourishes dry hair, reducing frizz and adding softness and shine.',
-     img: "assets.henna" // Replace with the correct image path or import
+    img: "assets.henna" // Replace with the correct image path or import
   },
   {
     id: 2,
@@ -1213,7 +1277,7 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and follow with a mild shampoo.'
     ],
     benefits: 'Controls oil production, cleanses the scalp, and adds volume to oily hair.',
-     img: ' assets.henna'// Replace with the correct image path or import
+    img: ' assets.henna'// Replace with the correct image path or import
   },
   {
     id: 3,
@@ -1231,7 +1295,7 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.'
     ],
     benefits: 'Reduces dandruff, soothes itchy scalp, and promotes a healthier scalp environment.',
-     img: "assets.henna"// Replace with the correct image path or import
+    img: "assets.henna"// Replace with the correct image path or import
   },
   {
     id: 4,
@@ -1249,7 +1313,7 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.'
     ],
     benefits: 'Strengthens hair roots, promotes hair growth, and reduces hair fall.',
-     img: " assets.henna"// Replace with the correct image path or import
+    img: " assets.henna"// Replace with the correct image path or import
   },
   {
     id: 5,
@@ -1267,7 +1331,7 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.'
     ],
     benefits: 'Repairs damage, restores moisture, and brings back shine and vitality to dull hair.',
-     img: "assets.henna "// Replace with the correct image path or import
+    img: "assets.henna "// Replace with the correct image path or import
   },
   {
     id: 6,
@@ -1285,12 +1349,12 @@ export const hennahairCareRecipes = [
       'Rinse thoroughly with lukewarm water and shampoo as usual.'
     ],
     benefits: 'Maintains overall hair health, adds shine, and keeps hair soft and manageable.',
-     img: "assets.henna" // Replace with the correct image path or import
+    img: "assets.henna" // Replace with the correct image path or import
   }
 ];
 
 
-
+//Aloe vera Powder
 
 export const Aloeverarecipesskin = [
   {
@@ -1644,6 +1708,7 @@ export const AloeveraDietaryRecipes = [
   },
 ];
 
+//Shikaki Powder
 
 export const ShikaahairCareRecipes = [
   {
@@ -1766,10 +1831,7 @@ export const ShikaahairCareRecipes = [
 ];
 
 
-
-
-
-
+//Amla Reciepies
 
 
 export const Amlaskinrecipes = [
@@ -2121,3 +2183,572 @@ export const AmlaDietRecipes = [
     img: "/assets/Assets/Amla/amla owder.png",
   },
 ];
+
+//Leongrass Powder
+export const lemongrassDietRecipes = [
+  {
+    id: 1,
+    title: 'Lemongrass Powder in Soups and Curries',
+    ingredients: [
+      '1-2 teaspoons lemongrass powder',
+      'Soup or curry base',
+      'Coconut milk (optional)'
+    ],
+    instructions: [
+      'Add 1-2 teaspoons of lemongrass powder while preparing soups, curries, or stews.',
+      'Stir well to incorporate the powder.',
+      'Simmer as usual, and adjust seasoning to taste.',
+      'Serve hot.'
+    ],
+    benefits: 'Enhances the flavor with a lemony zest and provides a subtle hint of freshness, especially in coconut milk-based dishes.',
+    img: "/assets/Assets/Lemongrass/lemonbowl.jpg",
+  },
+  {
+    id: 2,
+    title: 'Lemongrass Powder Marinade and Rub',
+    ingredients: [
+      '1 teaspoon lemongrass powder',
+      'Other spices and herbs (as desired)',
+      'Meats, tofu, or vegetables'
+    ],
+    instructions: [
+      'Mix 1 teaspoon of lemongrass powder with other spices and herbs to create a marinade or rub.',
+      'Apply the mixture to meats, tofu, or vegetables.',
+      'Let it marinate for at least 30 minutes before cooking.',
+      'Cook as desired.'
+    ],
+    benefits: 'Adds a fragrant, citrusy flavor that complements grilled or roasted dishes.',
+    img: "/assets/Assets/Lemongrass/lemonbowl.jpg",
+  },
+  {
+    id: 3,
+    title: 'Lemongrass Powder in Rice and Noodle Dishes',
+    ingredients: [
+      '1 teaspoon lemongrass powder',
+      'Rice or noodles',
+      'Other vegetables or proteins (optional)'
+    ],
+    instructions: [
+      'Sprinkle 1 teaspoon of lemongrass powder into rice or noodle dishes during cooking.',
+      'Stir well to distribute the powder evenly.',
+      'Add to fried rice or stir-fry recipes for additional flavor.',
+      'Cook as usual.'
+    ],
+    benefits: 'Adds a refreshing taste that brightens up the overall flavor profile of the dish.',
+    img: "/assets/Assets/Lemongrass/lemonbowl.jpg",
+  },
+  {
+    id: 4,
+    title: 'Lemongrass Tea',
+    ingredients: [
+      '1 teaspoon lemongrass powder',
+      '1 cup boiling water',
+      'Honey or lemon (optional)'
+    ],
+    instructions: [
+      'Boil 1 cup of water.',
+      'Add 1 teaspoon of lemongrass powder to the boiling water.',
+      'Let it steep for 5-10 minutes.',
+      'Strain and serve hot.',
+      'Add honey or lemon for additional flavor if desired.'
+    ],
+    benefits: 'Lemongrass tea is a natural detoxifier, aids digestion, reduces bloating, and has calming properties.',
+    img: "/assets/Assets/Lemongrass/lemonbowl.jpg",
+  },
+  {
+    id: 5,
+    title: 'Lemongrass Powder in Flavored Water and Smoothies',
+    ingredients: [
+      'A pinch of lemongrass powder',
+      'Water or smoothie base',
+      'Citrus fruits (optional)'
+    ],
+    instructions: [
+      'Add a pinch of lemongrass powder to your water, smoothies, or juices.',
+      'Stir or blend well.',
+      'Serve chilled or as desired.'
+    ],
+    benefits: 'Provides a mild, aromatic flavor and can help enhance the health benefits of your beverages.',
+    img: "/assets/Assets/Lemongrass/lemonbowl.jpg",
+  },
+  {
+    id: 6,
+    title: 'Lemongrass Face Mask',
+    ingredients: [
+      '1 teaspoon lemongrass powder',
+      '2 tablespoons yogurt or honey'
+    ],
+    instructions: [
+      'Mix lemongrass powder with yogurt or honey to form a smooth paste.',
+      'Apply the mixture to your face, avoiding the eyes.',
+      'Leave it on for 10-15 minutes.',
+      'Rinse off with lukewarm water and pat dry.'
+    ],
+    benefits: 'Helps cleanse the skin, reduce acne, and provides a natural glow.',
+    img: "/assets/Assets/Lemongrass/lemonbowl.jpg",
+  },
+  {
+    id: 7,
+    title: 'Lemongrass Body Scrub',
+    ingredients: [
+      '1 tablespoon lemongrass powder',
+      '1/2 cup sugar',
+      '1/4 cup coconut oil'
+    ],
+    instructions: [
+      'Mix lemongrass powder with sugar and coconut oil to create a scrub.',
+      'Use it in the shower to exfoliate your skin, gently massaging in circular motions.',
+      'Rinse thoroughly with water.'
+    ],
+    benefits: 'Exfoliates dead skin cells, leaving the skin smooth and refreshed. The antibacterial properties help cleanse the skin.',
+    img: "/assets/Assets/Lemongrass/lemonbowl.jpg",
+  },
+  {
+    id: 8,
+    title: 'Aromatherapy Sachets with Lemongrass Powder',
+    ingredients: [
+      'A small amount of lemongrass powder',
+      'Sachet or cloth bag'
+    ],
+    instructions: [
+      'Place a small amount of lemongrass powder in a sachet or cloth bag.',
+      'Hang it in closets, drawers, or bathrooms to impart a refreshing scent.'
+    ],
+    benefits: 'Naturally freshens the air, creating a calming and uplifting environment.',
+    img: "/assets/Assets/Lemongrass/lemonbowl.jpg",
+  },
+  {
+    id: 9,
+    title: 'Natural Insect Repellent with Lemongrass Powder',
+    ingredients: [
+      'Lemongrass powder',
+      'Sprinkling tool'
+    ],
+    instructions: [
+      'Sprinkle lemongrass powder around windowsills, doorways, and other entry points.',
+      'Reapply as needed to maintain effectiveness.'
+    ],
+    benefits: 'Acts as a natural insect repellent due to its strong citrus scent, which insects dislike.',
+    img: "/assets/Assets/Lemongrass/lemonbowl.jpg",
+  },
+];
+export const lemongrassSkinRecipes = [
+  {
+    id: 1,
+    title: 'Lemongrass Toner Spray',
+    ingredients: [
+      '1 cup distilled water',
+      '1 teaspoon lemongrass powder',
+      'Spray bottle'
+    ],
+    instructions: [
+      'Boil water and steep lemongrass powder for 10 minutes.',
+      'Let it cool, strain, and pour into a spray bottle.',
+      'Use as a natural toner after cleansing.'
+    ],
+    benefits: 'Tightens pores, reduces oiliness, and refreshes the skin with antimicrobial properties.',
+    img: "/assets/Assets/Lemongrass/lemonbowl.jpg",
+  },
+  {
+    id: 2,
+    title: 'Lemongrass & Aloe Vera Face Pack',
+    ingredients: [
+      '1 teaspoon lemongrass powder',
+      '1 tablespoon aloe vera gel'
+    ],
+    instructions: [
+      'Mix both ingredients to form a paste.',
+      'Apply to the face and leave for 15 minutes.',
+      'Rinse off with lukewarm water.'
+    ],
+    benefits: 'Soothes irritation, reduces acne, and hydrates the skin.',
+    img: "/assets/Assets/Lemongrass/lemonbowl.jpg",
+  },
+  {
+    id: 3,
+    title: 'Lemongrass Bath Soak',
+    ingredients: [
+      '2 tablespoons lemongrass powder',
+      '1/2 cup Epsom salt',
+      'Warm bath water'
+    ],
+    instructions: [
+      'Mix lemongrass powder and Epsom salt.',
+      'Add to warm bath water and soak for 20 minutes.'
+    ],
+    benefits: 'Relieves stress, refreshes skin, and soothes sore muscles.',
+    img: "/assets/Assets/Lemongrass/lemonbowl.jpg",
+  }
+];
+export const lemongrassHairRecipes = [
+  {
+    id: 1,
+    title: 'Lemongrass Hair Rinse',
+    ingredients: [
+      '2 cups water',
+      '1 teaspoon lemongrass powder'
+    ],
+    instructions: [
+      'Boil water and steep lemongrass powder for 10 minutes.',
+      'Cool and strain the mixture.',
+      'Use as a final rinse after shampooing.'
+    ],
+    benefits: 'Strengthens hair roots, reduces dandruff, and leaves a fresh scent.',
+    img: "/assets/Assets/Lemongrass/lemonfront.jpg",
+  },
+  {
+    id: 2,
+    title: 'Lemongrass Oil Scalp Massage',
+    ingredients: [
+      '1 tablespoon lemongrass powder',
+      '3 tablespoons coconut or almond oil'
+    ],
+    instructions: [
+      'Warm the oil and mix in lemongrass powder.',
+      'Massage into the scalp and leave for 30 minutes.',
+      'Shampoo thoroughly.'
+    ],
+    benefits: 'Promotes hair growth, soothes scalp inflammation, and reduces itching.',
+    img: "/assets/Assets/Lemongrass/lemonbowl.jpg",
+  },
+  {
+    id: 3,
+    title: 'Lemongrass & Yogurt Hair Mask',
+    ingredients: [
+      '1 tablespoon lemongrass powder',
+      '2 tablespoons yogurt'
+    ],
+    instructions: [
+      'Mix to form a smooth mask.',
+      'Apply from root to tips, leave for 20 minutes.',
+      'Rinse thoroughly and shampoo.'
+    ],
+    benefits: 'Adds shine, controls frizz, and nourishes dry hair.',
+    img: "/assets/Assets/Lemongrass/lemonbowl.jpg",
+  }
+];
+
+///curry leaf
+export const curryhairCareRecipes = [
+  {
+    id: 1,
+    title: 'Curry hair care Mask',
+    hairType: 'Dry and Frizzy Hair',
+    ingredients: [
+      '2 tablespoons curry leaves powder',
+      '3-4 tablespoons coconut oil'
+    ],
+    instructions: [
+      'Heat the coconut oil until warm (not hot).',
+      'Add the curry leaves powder to the warm oil and mix well.',
+      'Apply the mixture to your scalp and hair, focusing on the ends where dryness is more prominent.',
+      'Leave it on for 30-60 minutes or overnight for deep conditioning.',
+      'Wash with a mild shampoo and condition as usual.'
+    ],
+    benefits: 'Nourishes dry hair, adds moisture, and reduces frizz.',
+    img: '', // Replace with the correct image path or import
+  },
+  {
+    id: 2,
+    title: 'Curry Leaves and Lemon Juice Hair Pack',
+    hairType: 'Oily Hair',
+    ingredients: [
+      '2 tablespoons curry leaves powder',
+      '1 tablespoon lemon juice',
+      'Water to make a paste'
+    ],
+    instructions: [
+      'Mix curry leaves powder with lemon juice and enough water to form a smooth paste.',
+      'Apply the paste to your scalp and hair, focusing on the roots.',
+      'Leave it on for 20-30 minutes.',
+      'Rinse thoroughly with lukewarm water, and follow with a mild shampoo.'
+    ],
+    benefits: 'Controls excess oil production, cleanses the scalp, and adds volume to oily hair.',
+    img: '',// Replace with the correct image path or import
+  },
+  {
+    id: 3,
+    title: 'Curry Leaves and Yogurt Hair Mask',
+    hairType: 'Dull and Damaged Hair',
+    ingredients: [
+      '2 tablespoons curry leaves powder',
+      '3 tablespoons plain yogurt',
+      '1 teaspoon honey'
+    ],
+    instructions: [
+      'Mix curry leaves powder with yogurt and honey to form a smooth paste.',
+      'Apply the mixture to your scalp and hair, ensuring even coverage.',
+      'Leave it on for 30-45 minutes.',
+      'Rinse with lukewarm water and shampoo as usual.'
+    ],
+    benefits: 'Revitalizes dull, damaged hair by nourishing the scalp, repairing damage, and adding shine.',
+    img: '', // Replace with the correct image path or import
+  },
+  {
+    id: 4,
+    title: 'Curry Leaves and Amla Hair Pack',
+    hairType: 'Hair Growth and Thickening',
+    ingredients: [
+      '2 tablespoons curry leaves powder',
+      '2 tablespoons amla (Indian gooseberry) powder',
+      'Water to make a paste'
+    ],
+    instructions: [
+      'Combine curry leaves powder and amla powder with enough water to form a thick paste.',
+      'Apply the paste to your scalp, massaging gently to promote absorption.',
+      'Leave it on for 30-40 minutes.',
+      'Rinse with lukewarm water and follow with a mild shampoo.'
+    ],
+    benefits: 'Promotes hair growth, strengthens hair follicles, and thickens hair over time.',
+    img: '', // Replace with the correct image path or import
+  },
+  {
+    id: 5,
+    title: 'Curry Leaves and Neem Powder Mask',
+    hairType: 'Dandruff and Itchy Scalp',
+    ingredients: [
+      '2 tablespoons curry leaves powder',
+      '2 tablespoons neem powder',
+      'Water to make a paste'
+    ],
+    instructions: [
+      'Mix curry leaves powder and neem powder with water to create a smooth paste.',
+      'Apply the paste to your scalp, focusing on areas affected by dandruff.',
+      'Leave it on for 20-30 minutes.',
+      'Rinse with lukewarm water and shampoo as usual.'
+    ],
+    benefits: 'Combats dandruff, soothes an itchy scalp, and prevents fungal infections.',
+    img: '', // Replace with the correct image path or import
+  },
+  {
+    id: 6,
+    title: 'Curry Leaves and Aloe Vera Hair Mask',
+    hairType: 'Normal Hair',
+    ingredients: [
+      '2 tablespoons curry leaves powder',
+      '2 tablespoons fresh aloe vera gel',
+      'Water to adjust consistency'
+    ],
+    instructions: [
+      'Mix curry leaves powder with aloe vera gel to form a smooth, consistent paste.',
+      'Apply the mixture to your scalp and hair.',
+      'Leave it on for 30-45 minutes.',
+      'Rinse thoroughly with water and shampoo as usual.'
+    ],
+    benefits: 'Maintains overall hair health, adds shine, and keeps hair soft and manageable.',
+    img: '',// Replace with the correct image path or import
+  }
+];
+export const currySkinCareRecipes = [
+  {
+    id: 1,
+    title: 'Curryskin care  aves and Coconut Oil Mask',
+    hairType: 'Dry and Frizzy Hair',
+    ingredients: [
+      '2 tablespoons curry leaves powder',
+      '3-4 tablespoons coconut oil'
+    ],
+    instructions: [
+      'Heat the coconut oil until warm (not hot).',
+      'Add the curry leaves powder to the warm oil and mix well.',
+      'Apply the mixture to your scalp and hair, focusing on the ends where dryness is more prominent.',
+      'Leave it on for 30-60 minutes or overnight for deep conditioning.',
+      'Wash with a mild shampoo and condition as usual.'
+    ],
+    benefits: 'Nourishes dry hair, adds moisture, and reduces frizz.',
+    img: '', // Replace with the correct image path or import
+  },
+  {
+    id: 2,
+    title: 'Curry Leaves and Lemon Juice Hair Pack',
+    hairType: 'Oily Hair',
+    ingredients: [
+      '2 tablespoons curry leaves powder',
+      '1 tablespoon lemon juice',
+      'Water to make a paste'
+    ],
+    instructions: [
+      'Mix curry leaves powder with lemon juice and enough water to form a smooth paste.',
+      'Apply the paste to your scalp and hair, focusing on the roots.',
+      'Leave it on for 20-30 minutes.',
+      'Rinse thoroughly with lukewarm water, and follow with a mild shampoo.'
+    ],
+    benefits: 'Controls excess oil production, cleanses the scalp, and adds volume to oily hair.',
+    img: '',// Replace with the correct image path or import
+  },
+  {
+    id: 3,
+    title: 'Curry Leaves and Yogurt Hair Mask',
+    hairType: 'Dull and Damaged Hair',
+    ingredients: [
+      '2 tablespoons curry leaves powder',
+      '3 tablespoons plain yogurt',
+      '1 teaspoon honey'
+    ],
+    instructions: [
+      'Mix curry leaves powder with yogurt and honey to form a smooth paste.',
+      'Apply the mixture to your scalp and hair, ensuring even coverage.',
+      'Leave it on for 30-45 minutes.',
+      'Rinse with lukewarm water and shampoo as usual.'
+    ],
+    benefits: 'Revitalizes dull, damaged hair by nourishing the scalp, repairing damage, and adding shine.',
+    img: '',// Replace with the correct image path or import
+  },
+  {
+    id: 4,
+    title: 'Curry Leaves and Amla Hair Pack',
+    hairType: 'Hair Growth and Thickening',
+    ingredients: [
+      '2 tablespoons curry leaves powder',
+      '2 tablespoons amla (Indian gooseberry) powder',
+      'Water to make a paste'
+    ],
+    instructions: [
+      'Combine curry leaves powder and amla powder with enough water to form a thick paste.',
+      'Apply the paste to your scalp, massaging gently to promote absorption.',
+      'Leave it on for 30-40 minutes.',
+      'Rinse with lukewarm water and follow with a mild shampoo.'
+    ],
+    benefits: 'Promotes hair growth, strengthens hair follicles, and thickens hair over time.',
+    img: '',// Replace with the correct image path or import
+  },
+  {
+    id: 5,
+    title: 'Curry Leaves and Neem Powder Mask',
+    hairType: 'Dandruff and Itchy Scalp',
+    ingredients: [
+      '2 tablespoons curry leaves powder',
+      '2 tablespoons neem powder',
+      'Water to make a paste'
+    ],
+    instructions: [
+      'Mix curry leaves powder and neem powder with water to create a smooth paste.',
+      'Apply the paste to your scalp, focusing on areas affected by dandruff.',
+      'Leave it on for 20-30 minutes.',
+      'Rinse with lukewarm water and shampoo as usual.'
+    ],
+    benefits: 'Combats dandruff, soothes an itchy scalp, and prevents fungal infections.',
+    img: '',// Replace with the correct image path or import
+  },
+  {
+    id: 6,
+    title: 'Curry Leaves and Aloe Vera Hair Mask',
+    hairType: 'Normal Hair',
+    ingredients: [
+      '2 tablespoons curry leaves powder',
+      '2 tablespoons fresh aloe vera gel',
+      'Water to adjust consistency'
+    ],
+    instructions: [
+      'Mix curry leaves powder with aloe vera gel to form a smooth, consistent paste.',
+      'Apply the mixture to your scalp and hair.',
+      'Leave it on for 30-45 minutes.',
+      'Rinse thoroughly with water and shampoo as usual.'
+    ],
+    benefits: 'Maintains overall hair health, adds shine, and keeps hair soft and manageable.',
+    img: '', // Replace with the correct image path or import
+  }
+];
+
+export const currydietRecipes = [
+  {
+    id: 1,
+    title: 'Curry Leaf Detox Water',
+    dietType: 'Morning Detox',
+    ingredients: [
+      '10-12 fresh curry leaves or 1 tsp curry leaves powder',
+      '1 glass of warm water',
+      'Juice of half a lemon',
+      '1 teaspoon honey (optional)'
+    ],
+    instructions: [
+      'Boil water and let it cool slightly.',
+      'Add curry leaves and let them steep for 5-10 minutes.',
+      'Strain, add lemon juice and honey if using.',
+      'Consume on an empty stomach in the morning.'
+    ],
+    benefits: 'Helps detoxify the liver, supports digestion, and boosts metabolism.',
+    img: '/assets/Assets/curryleaf/diet1.png' // Replace with actual image
+  },
+  {
+    id: 2,
+    title: 'Curry Leaf Chutney',
+    dietType: 'Side Dish / Condiment',
+    ingredients: [
+      '1 cup fresh curry leaves or 2 tbsp powder',
+      '2 tablespoons grated coconut',
+      '1 small piece of tamarind',
+      '1 green chili',
+      'Salt to taste',
+      'Water as needed'
+    ],
+    instructions: [
+      'Grind all ingredients to a smooth paste using minimal water.',
+      'Use as a side with dosa, idli, or rice.',
+      'Store in refrigerator and use within 2 days.'
+    ],
+    benefits: 'Rich in iron, calcium, and antioxidants; supports digestion and immunity.',
+    img: '/assets/Assets/curryleaf/diet2.png'
+  },
+  {
+    id: 3,
+    title: 'Curry Leaf Rice',
+    dietType: 'Main Course',
+    ingredients: [
+      '2 cups cooked rice',
+      '1 tablespoon oil or ghee',
+      '1 teaspoon mustard seeds',
+      '1 teaspoon urad dal',
+      '1-2 dried red chilies',
+      '10-12 curry leaves or 1 tbsp powder',
+      'Salt to taste'
+    ],
+    instructions: [
+      'Heat oil, add mustard seeds, urad dal, and red chilies.',
+      'Add curry leaves and sauté for a minute.',
+      'Mix in the cooked rice and stir well.',
+      'Serve hot with yogurt or pickle.'
+    ],
+    benefits: 'A flavorful iron-rich dish that supports hair growth and gut health.',
+    img: '/assets/Assets/curryleaf/diet3.png'
+  },
+  {
+    id: 4,
+    title: 'Curry Leaf Smoothie',
+    dietType: 'Health Drink',
+    ingredients: [
+      '1 banana',
+      '1/2 cup spinach',
+      '1 teaspoon curry leaves powder',
+      '1 cup coconut water or plain water',
+      '1 teaspoon chia seeds (optional)'
+    ],
+    instructions: [
+      'Blend all ingredients until smooth.',
+      'Drink immediately for best results.',
+      'Can be consumed as a mid-morning or post-workout drink.'
+    ],
+    benefits: 'Detoxifying, nutrient-rich, and supports skin and liver health.',
+    img: '/assets/Assets/curryleaf/diet4.png'
+  },
+  {
+    id: 5,
+    title: 'Curry Leaf Kadha (Herbal Tea)',
+    dietType: 'Immune Booster',
+    ingredients: [
+      '1 tsp curry leaves powder or 8-10 fresh leaves',
+      '1/2 tsp turmeric',
+      '1/2 inch grated ginger',
+      '2 cups water',
+      'Honey to taste (optional)'
+    ],
+    instructions: [
+      'Boil all ingredients (except honey) for 8-10 minutes.',
+      'Strain and add honey if desired.',
+      'Drink warm, preferably at bedtime or during cold/flu.'
+    ],
+    benefits: 'Boosts immunity, reduces inflammation, and soothes sore throat.',
+    img: '/assets/Assets/curryleaf/diet5.png'
+  }
+];
+
