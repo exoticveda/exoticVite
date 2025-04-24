@@ -43,8 +43,8 @@ export const products = [
     id: 4,
     link: '/products/aloevera-powder',
     img: '/assets/Assets/Aloe/Aloe vera  front.png',
-    title: 'Pure Aloe Vera Powder  : Your Natural Solution for Skin and Hair Care',
     description: 'Refresh your skin and hair with our pure Aloe Vera Powder, known for its cooling and moisturizing benefits. Ideal for face masks and hair care!',
+    title: 'Pure Aloe Vera Powder  : Your Natural Solution for Skin and Hair Care',
     updateInfo: ' Click here to Learn Our  Tips  ',
     buyLink: 'https://www.revaais.shop/products/pure-aloe-vera-powder?_pos=1&_sid=200c3bfb5&_ss=r?variant=48956960702785',
     route: '/products/aloevera-powder',
@@ -56,7 +56,8 @@ export const products = [
   {
     id: 5,
     link: '/products/amla-powder',
-    img: '/assets/Assets/Amla/Amla Powderfront.png', title: 'Amla Powder: Natural Solution for Healthy Hair, Skin & Diet',
+    img: '/assets/Assets/Amla/Amla Powderfront.png',
+    title: 'Amla Powder: Natural Solution for Healthy Hair, Skin & Diet',
     description: 'Boost your skin and hair care with pure Amla Powder, rich in Vitamin C. Ideal for enhancing natural radiance and promoting healthy hair growth',
     updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://revaais.com/products/organic-amla-powder-herbal-supplement-indian-gooseberry-or-emblica-officinalis-helps-detoxify-boost-immunity-hair-growth-long-hairs-promotes-eye-health-100-natural-non-gmo-100g?_pos=1&_sid=5edfdd030&_ss=r',
@@ -149,10 +150,10 @@ export const products = [
     img: "/assets/Assets/beetroot/beetroot  powder  front.png",
     title: 'Beetroot Powder: Delicious Superfood for Glowing Skin & Diet Support',
     description: ' Beetroot Powder enhances skin health and vitality. Rich in antioxidants, it supports a healthy diet, boosts energy, and promotes natural glow.',
-    updateInfo: 'Click here to Learn Our  Tips ',
     buyLink: 'https://www.revaais.shop/products/exotic-veda-beetroot-powder-vegan-gluten-free-100-natural-non-gmo-100g',
     route: '/products/beetroot-powder',
     price: "$6.99",
+    updateInfo: 'Click here to Learn Our  Tips ',
     rating: 4,
     categories: ['Hair', 'Skin', 'Diet'],
   },
@@ -1146,7 +1147,7 @@ export const ShikaahairCareRecipes = [
     ],
     benefits:
       'Deeply conditions and nourishes dry, frizzy hair, making it softer and more manageable.',
-      img: '/assets/Assets/shikakipowder/shikaaipowder.jpg',
+    img: '/assets/Assets/shikakipowder/shikaaipowder.jpg',
   },
   {
     id: 3,
@@ -1165,7 +1166,7 @@ export const ShikaahairCareRecipes = [
     ],
     benefits:
       'Reduces dandruff, soothes the scalp, and helps maintain a healthy scalp environment.',
-      img: '/assets/Assets/shikakipowder/Shikakai  Powder  Frontn.png',
+    img: '/assets/Assets/shikakipowder/Shikakai  Powder  Frontn.png',
   },
   {
     id: 4,
@@ -1185,7 +1186,7 @@ export const ShikaahairCareRecipes = [
     ],
     benefits:
       'Strengthens hair from the roots, promotes hair growth, and reduces hair fall.',
-      img: '/assets/Assets/shikakipowder/shikaaipowder.jpg',
+    img: '/assets/Assets/shikakipowder/shikaaipowder.jpg',
   },
   {
     id: 5,
@@ -1204,7 +1205,7 @@ export const ShikaahairCareRecipes = [
     ],
     benefits:
       'Repairs damaged hair, restores moisture, and brings back shine and vitality to dull hair.',
-      img: '/assets/Assets/shikakipowder/Shikakai  Powder  Frontn.png',
+    img: '/assets/Assets/shikakipowder/Shikakai  Powder  Frontn.png',
   },
   {
     id: 6,
@@ -1223,7 +1224,7 @@ export const ShikaahairCareRecipes = [
     ],
     benefits:
       'Cleanses and nourishes the hair, maintaining shine and softness.',
-      img: '/assets/Assets/shikakipowder/shikaaipowder.jpg',
+    img: '/assets/Assets/shikakipowder/shikaaipowder.jpg',
   },
 ];
 
