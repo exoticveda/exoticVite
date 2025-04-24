@@ -220,6 +220,116 @@ export const beetrootProductDetails = {
   images: ['', '',],
 
 };
+export const sandalwoodrecipes = [
+  {
+    id: 1,
+    title: 'Sandalwood and Lemon Oil-Control Face Pack',
+    skinType: 'Oily and Acne-Prone Skin',
+    ingredients: [
+      '2 tablespoons sandalwood powder',
+      '1 tablespoon rose water',
+      '1 teaspoon lemon juice',
+    ],
+    instructions: [
+      'Mix the sandalwood powder with rose water and lemon juice to form a smooth paste.',
+      'Apply the paste evenly to your face, focusing on areas prone to oil and acne.',
+      'Leave it on for 15-20 minutes or until it dries.',
+      'Rinse off with lukewarm water and pat your skin dry.',
+    ],
+    benefits: 'Controls excess oil, prevents acne, and tightens pores, leaving the skin feeling fresh and clean.',
+    img:    "/assets/Assets/sabdalwood/san.jpg",
+  },
+  {
+    id: 2,
+    title: 'Sandalwood and Milk Hydrating Face Pack ',
+    skinType: 'Dry and Sensitive Skin',
+    ingredients: [
+      '2 tablespoons sandalwood powder',
+      '2-3 tablespoons milk',
+      '1 teaspoon honey',
+    ],
+    instructions: [
+      'Mix the sandalwood powder with milk and honey to create a smooth, creamy paste.',
+      'Apply the mixture to your face, avoiding the eye area.',
+      'Leave it on for 10-15 minutes, ensuring it doesn’t dry completely.',
+      'Rinse off with lukewarm water and gently pat dry.',
+    ],
+    benefits: 'Hydrates and soothes dry, sensitive skin, providing moisture and reducing irritation without over-drying.',
+    img:    "/assets/Assets/sabdalwood/san.jpg",
+  },
+  {
+    id: 3,
+    title: 'Sandalwood and Aloe Vera Balancing Face Pack ',
+    skinType: 'Combination Skin',
+    ingredients: [
+      '2 tablespoons sandalwood powder',
+      '1 tablespoon aloe vera gel',
+      '1 tablespoon rose water',
+    ],
+    instructions: [
+      'Mix the sandalwood powder with aloe vera gel and rose water to form a smooth paste.',
+      'Apply the mask to your face, focusing on oily areas like the T-zone and avoiding drier areas.',
+      'Leave it on for 15-20 minutes until it starts to dry.',
+      'Rinse off with lukewarm water and pat dry.',
+    ],
+    benefits: 'Balances oil production, hydrates dry areas, and maintains an even complexion.',
+    img:    "/assets/Assets/sabdalwood/san.jpg",
+  },
+  {
+    id: 4,
+    title: 'Sandalwood and Banana Anti-Aging Mask',
+    skinType: 'Aging Skin',
+    ingredients: [
+      '2 tablespoons sandalwood powder',
+      '1 tablespoon mashed ripe banana',
+      '1 teaspoon honey',
+    ],
+    instructions: [
+      'Mash the ripe banana and mix it with sandalwood powder and honey to create a smooth paste.',
+      'Apply the mask to your face, focusing on areas with fine lines and wrinkles.',
+      'Leave it on for 15-20 minutes until it begins to tighten.',
+      'Rinse off with lukewarm water and pat dry.',
+    ],
+    benefits: 'Reduces fine lines, tightens the skin, and improves elasticity, promoting a youthful appearance.',
+    img:    "/assets/Assets/sabdalwood/san.jpg",
+  },
+  {
+    id: 5,
+    title: 'Sandalwood and Turmeric Brightening Mask',
+    skinType: 'Dull and Uneven Skin Tone',
+    ingredients: [
+      '2 tablespoons sandalwood powder',
+      '1 teaspoon turmeric powder',
+      '2-3 tablespoons yogurt',
+    ],
+    instructions: [
+      'Mix sandalwood powder with turmeric powder and yogurt to form a smooth paste.',
+      'Apply the mask to your face, focusing on areas that appear dull or have uneven skin tone.',
+      'Leave it on for 15-20 minutes.',
+      'Rinse off with lukewarm water and gently pat dry.',
+    ],
+    benefits: 'Brightens the skin, reduces dark spots, and revitalizes dull, tired-looking skin.',
+    img:    "/assets/Assets/sabdalwood/san.jpg",
+  },
+  {
+    id: 6,
+    title: 'Sandalwood and Rose Water Refreshing Face Pack ',
+    skinType: 'Normal Skin',
+    ingredients: [
+      '2 tablespoons sandalwood powder',
+      '1 tablespoon rose water',
+      '1 teaspoon honey (optional)',
+    ],
+    instructions: [
+      'Mix sandalwood powder with rose water (and honey, if desired) to create a smooth paste.',
+      'Apply the mask evenly to your face.',
+      'Leave it on for 15-20 minutes.',
+      'Rinse off with lukewarm water and gently pat dry.',
+    ],
+    benefits: 'Refreshes and maintains the skin’s natural balance, leaving it soft, smooth, and glowing.',
+    img:    "/assets/Assets/sabdalwood/san.jpg",
+  },
+];
 
 export const beetrootDietaryRecipes = [
   {
@@ -685,19 +795,14 @@ export const productData = {
   },
   "sandalwoodpowder": {
     name: "  Organic Pure Sandalwood Powder For Face And Skin | Natural Skincare Sandalwood Scent | Anti-Inflammatory Chandan Powder | Aromatic Sandalwood Powder Organic | Scented Body Powder",
-    price: { current: 6.17, original: 7.23 },
+    price: '$7.90',
+    link: 'https://revaais.com/products/exotic-veda-sandalwood-powder',
     description: [
       "Organic Pure Sandalwood Powder: Experience The Unparalleled Purity Of Our Organic Pure Sandalwood Powder, Sourced From The Finest Sandalwood. Ideal For Skincare Rituals, It Combines Seamlessly With Orange Peel Powder, Multani Mitti Powder, And Rose Powder For A Holistic Beauty Regimen. ",
       " Detanning And Skincare Benefits: Our Sandalwood Powder For Face Offers Exceptional Detanning Properties, Making It A Must-Have For Natural Skincare. Blended With Multani Mitti Powder And Rose Powder, It Also Serves As A Powerful Anti-Inflammatory And Antiseptic Solution. ",
       "   Versatile Usage: Perfect For Both Face And Body, Our Sandalwood Powder Can Be Mixed With Sandalwood Oil For Skin And Wild Turmeric Powder For Skin. Its Aromatic Benefits Make It An Ideal Ingredient For Scented Body Powder And Powder Incense, Elevating Your Skincare Routine ",
       "Aromatic And Therapeutic: Infused With The Soothing Aroma Of Sandalwood, Our Powder Serves As An Excellent Incense Powder. It Can Be Combined With Rose Powder Organic And Vanilla Body Powder For Women, Providing A Calming And Scented Body Powder Experience.  ",
-
       "Natural Skincare: Harness The Natural Skincare Benefits Of Our Sandalwood Powder For Skin. It Pairs Wonderfully With Lemon Peel Powder, Chandan Powder For Face, Red Sandalwood Powder, And Vanilla Body Powder, Providing A Comprehensive And Luxurious Skincare Solution  ",
-
-
-
-
-
     ]
   },
 
