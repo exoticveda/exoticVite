@@ -29,9 +29,8 @@ const Home = () => {
       <Carousel/>
       <Categories />
       <FeaturedCollection />
-
       <WhyBeYoursSection />
-      <TreatmentImageSection />
+      {/* <TreatmentImageSection /> */}
       <PurchaseSteps/>
       <section
         className="py-16 px-4 sm:px-8 md:px-16 lg:px-24 text-center"

@@ -38,9 +38,8 @@ const Navbar = () => {
 
             {/* Navigation */}
             <div
-              className={`${
-                menuOpen ? 'block' : 'hidden'
-              } lg:flex lg:items-center lg:space-x-6 absolute lg:static top-20 left-0 w-full lg:w-auto bg-white shadow-md lg:shadow-none z-40 px-4 lg:px-0 py-4 lg:py-0`}
+              className={`${menuOpen ? 'block' : 'hidden'
+                } lg:flex lg:items-center lg:space-x-6 absolute lg:static top-20 left-0 w-full lg:w-auto bg-white shadow-md lg:shadow-none z-40 px-4 lg:px-0 py-4 lg:py-0`}
             >
               <ul className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-6 text-gray-700 font-medium w-full lg:w-auto">
 
@@ -64,29 +63,26 @@ const Navbar = () => {
 
                 {/* Dropdown */}
                 <li
-  className="relative group"
-  onMouseEnter={() => setDropdownOpen(true)}
-  onMouseLeave={() => setDropdownOpen(false)}
->
-  <div className="cursor-pointer flex items-center gap-2  hover:text-teal-600">
-   < span className='flex items-center gap-2  justify-center'> <FiGrid />
-    Shop by Categories
-    {dropdownOpen ? <FiChevronUp size={16} /> : <FiChevronDown size={16} />}</span>
-  </div>
-  <ul
-    className={`${
-      dropdownOpen ? 'block' : 'hidden'
-    } absolute left-0  w-44 bg-white rounded-md shadow-md z-50`}
-  >
-    <li><Link to="/category/haircare" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Hair Care</Link></li>
-    <li><Link to="/Skincaree-category" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Skin Care</Link></li>
-    <li><Link to="/Dietry-Use-Category" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Dietary</Link></li>
-    <li><Link to="/wellness" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Wellness</Link></li>
-    <li><Link to="/Diya-Batti" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Puja Essentials</Link></li>
-  </ul>
-</li>
-
-
+                  className="relative group"
+                  onMouseEnter={() => setDropdownOpen(true)}
+                  onMouseLeave={() => setDropdownOpen(false)}
+                >
+                  <div className="cursor-pointer flex items-center gap-2  hover:text-teal-600">
+                    < span className='flex items-center gap-2  justify-center'> <FiGrid />
+                      Shop by Categories
+                      {dropdownOpen ? <FiChevronUp size={16} /> : <FiChevronDown size={16} />}</span>
+                  </div>
+                  <ul
+                    className={`${dropdownOpen ? 'block' : 'hidden'
+                      } absolute left-0  w-44 bg-white rounded-md shadow-md z-50`}
+                  >
+                    <li><Link to="/category/haircare" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Hair Care</Link></li>
+                    <li><Link to="/Skincaree-category" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Skin Care</Link></li>
+                    <li><Link to="/Dietry-Use-Category" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Dietary</Link></li>
+                    <li><Link to="/wellness" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Wellness</Link></li>
+                    <li><Link to="/Diya-Batti" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Puja Essentials</Link></li>
+                  </ul>
+                </li>
                 <li>
                   <a
                     href="https://www.revaais.shop"
