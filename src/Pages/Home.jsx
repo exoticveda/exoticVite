@@ -28,10 +28,11 @@ const Home = () => {
     <div>
       <Carousel/>
       <Categories />
+
       <FeaturedCollection />
+      <PurchaseSteps/>
       <WhyBeYoursSection />
       {/* <TreatmentImageSection /> */}
-      <PurchaseSteps/>
       <section
         className="py-16 px-4 sm:px-8 md:px-16 lg:px-24 text-center"
         data-aos="fade-up"
