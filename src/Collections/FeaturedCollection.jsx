@@ -54,11 +54,11 @@ const FeaturedCollection = () => {
                   <h5 className="text-lg font-bold text-gray-800 hover:text-green-600 transition duration-200">
                     {name}
                   </h5>
-                  <div className="flex items-center text-yellow-400 mb-2">
+                  {/* <div className="flex items-center text-yellow-400 mb-2">
                     {Array.from({ length: 5 }, (_, i) => (
                       <span key={i}>{i < rating ? "★" : "☆"}</span>
                     ))}
-                  </div>
+                  </div> */}
                 </Link>
 
                 {/* Update Info */}

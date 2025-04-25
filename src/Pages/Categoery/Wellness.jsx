@@ -38,11 +38,11 @@ const Wellness = () => {
                        <div className="p-4">
                          <Link to={product.link}>
                            <h5 className="text-lg font-bold text-gray-800 hover:text-green-600 transition duration-200">{product.title}</h5>
-                           <div className="flex items-center text-yellow-400 mb-2">
+                           {/* <div className="flex items-center text-yellow-400 mb-2">
                    {Array.from({ length: 5 }, (_, i) => (
                      <span key={i}>{i < product.rating ? '★' : '☆'}</span>
                    ))}
-                 </div>
+                 </div> */}
                            <p className="text-gray-600 text-sm mt-2">{product.description}</p>
                          </Link>
                          <p className="text-sm text-gray-500 mt-2">
@@ -61,7 +61,7 @@ const Wellness = () => {
                      </div>
                    ))}
                  </div>
-               
+
                </>
              );
            };

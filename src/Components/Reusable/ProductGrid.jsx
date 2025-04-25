@@ -37,12 +37,12 @@ const ProductCard = ({ product }) => (
     <div className="p-4">
       <h3 className="text-lg font-semibold mb-1 dark:text-black">{product.title}</h3>
 
-      {/* Rating */}
+      {/* Rating
       <div className="flex items-center text-yellow-400 mb-2">
         {Array.from({ length: 5 }, (_, i) => (
           <span key={i}>{i < product.rating ? '★' : '☆'}</span>
         ))}
-      </div>
+      </div> */}
 
       <p className="text-gray-600 text-sm mb-3">{product.description}</p>
 

@@ -80,7 +80,7 @@ const Navbar = () => {
                     <li><Link to="/Skincaree-category" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Skin Care</Link></li>
                     <li><Link to="/Dietry-Use-Category" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Dietary</Link></li>
                     <li><Link to="/wellness" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Wellness</Link></li>
-                    <li><Link to="/Diya-Batti" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Puja Essentials</Link></li>
+                    <li><Link to="/Diya-Batti" className="block px-4 py-2 hover:bg-gray-100" onClick={handleLinkClick}>Pooja Essentials</Link></li>
                   </ul>
                 </li>
                 <li>
