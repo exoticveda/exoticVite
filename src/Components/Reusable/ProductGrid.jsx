@@ -55,7 +55,7 @@ const ProductCard = ({ product }) => (
       <div className="flex items-center justify-between">
         <span className="text-green-500 font-bold">{product.price}</span>
         <a href={product.buyLink} target="_blank" rel="noopener noreferrer">
-          <button className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-black">
+          <button className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-black hover:cursor-pointer transition duration-200 flex items-center gap-2">
             Buy Now
           </button>
         </a>
