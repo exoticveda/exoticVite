@@ -95,9 +95,9 @@ const Navbar = () => {
         {/* Mobile Menu */}
         {menuOpen && (
           <div className="lg:hidden bg-white shadow-md px-6 py-4">
-            <div className="mb-4">
+            {/* <div className="mb-4">
               <SearchBar />
-            </div>
+            </div> */}
             <ul className="flex flex-col space-y-4 text-gray-700 font-medium">
               <li><Link to="/products" className="flex items-center gap-2 hover:text-teal-600" onClick={handleLinkClick}><FiShoppingBag /> Products</Link></li>
               <li><Link to="/aboutus" className="flex items-center gap-2 hover:text-teal-600" onClick={handleLinkClick}><FiInfo /> About Us</Link></li>
